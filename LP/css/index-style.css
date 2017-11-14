@@ -1,0 +1,23 @@
+.navbar-inverse .navbar-brand img {
+  width: 250px; }
+
+#loginPage-content #myModal .modal-dialog .modal-content {
+  background-color: transparent;
+  border: 0; }
+  @media (min-width: 768px) {
+    #loginPage-content #myModal .modal-dialog .modal-content {
+      -webkit-box-shadow: none;
+      box-shadow: none; } }
+  #loginPage-content #myModal .modal-dialog .modal-content .modal-header {
+    position: relative;
+    border-bottom: 1px solid transparent; }
+    #loginPage-content #myModal .modal-dialog .modal-content .modal-header .close {
+      position: absolute;
+      right: 70px;
+      top: 23px;
+      float: none;
+      color: #ffffff;
+      opacity: .8;
+      z-index: 1; }
+  #loginPage-content #myModal .modal-dialog .modal-content .modal-footer {
+    border-top: 1px solid transparent; }

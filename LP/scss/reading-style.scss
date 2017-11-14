@@ -1,0 +1,44 @@
+//header
+.navbar-inverse .navbar-brand img {
+  width: 250px;
+}
+
+#readingdata-content1 {
+  padding-top: 0;
+
+  .reading-title {
+    padding: 40px 0 25px 0;
+  }
+}
+
+//video popup
+#myModal {
+  .modal-dialog {
+    .modal-content {
+      background-color: rgba(0, 0, 0, 0);
+      border: 0;
+
+      @media (min-width: 768px) {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+      .modal-header {
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+
+        .close {
+          position: absolute;
+          right: 70px;
+          top: 23px;
+          float: none;
+          color: #ffffff;
+          opacity: .8;
+          z-index: 1;
+        }
+      }
+      .modal-footer {
+        border-top: 1px solid rgba(0, 0, 0, 0);
+      }
+    }
+  }
+}

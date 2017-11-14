@@ -22,7 +22,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-responsive"></a>
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo1.svg" class="img-responsive">
+            </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -82,28 +84,45 @@
         </div>
         <br><br>
         <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12 mar-t-10">
-                <iframe class="vid" id="yt" src="" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                <div id="content">
-                    <p>Title</p>
-                    <center>
-                        <button id="btn-player-show">
-                            <span><img src="img/vid-icon.png" class="img-play-video"></span>
-                            WATCH A VIDEO
-                        </button>
-                        <button id="btn-player-hide" class="switch-display"><span><img src="img/vid-icon.png" class="img-play-video"></span> hide video</button>
-                    </center>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="content-btn color-bg-blue video-poster"  data-toggle="modal" data-target="#myModal">
+                    <span>
+                        <img src="img/vid-icon.png">
+                    </span>
+                    WATCH A VIDEO
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <a href="">
-                    <div class="content-btn color-bg-violet">
-                        <span>
-                            <img src="img/fb-icon.png">
-                        </span>
-                        SIGN UP WITH FACEBOOK
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-lg">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-10 col-xs-12">
+                                    <iframe src="https://player.vimeo.com/video/241240228" style="width:100%; height:400px;"
+                                            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                                <div class="col-sm-1"></div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
                     </div>
-                </a>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="content-btn color-bg-violet">
+                    <span><img src="img/fb-icon.png"></span> SIGN UP WITH FACEBOOK
+                </div>
             </div>
         </div>
     </div>
@@ -136,6 +155,6 @@
 <!-- Javascripts -->
 <script src="js/plugins/jquery.min.js"></script>
 <script src="js/plugins/bootstrap.min.js"></script>
-<script src="js/index-java-script.js"></script>
+<script src="js/index-javascript.js"></script>
 </body>
 </html>

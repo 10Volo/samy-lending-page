@@ -1,0 +1,33 @@
+.navbar-inverse .navbar-brand img {
+  width: 250px; }
+
+#analyzing-content1 {
+  padding-top: 0;
+  margin-top: 20px; }
+  #analyzing-content1 .analyzing-title {
+    padding: 20px 0 10px 0; }
+  #analyzing-content1 .video-poster {
+    margin: 30px 0 50px 0; }
+  #analyzing-content1 .color-bg-violet {
+    margin-bottom: 40px; }
+
+#myModal .modal-dialog .modal-content {
+  background-color: transparent;
+  border: 0; }
+  @media (min-width: 768px) {
+    #myModal .modal-dialog .modal-content {
+      -webkit-box-shadow: none;
+      box-shadow: none; } }
+  #myModal .modal-dialog .modal-content .modal-header {
+    position: relative;
+    border-bottom: 1px solid transparent; }
+    #myModal .modal-dialog .modal-content .modal-header .close {
+      position: absolute;
+      right: 70px;
+      top: 23px;
+      float: none;
+      color: #ffffff;
+      opacity: .8;
+      z-index: 1; }
+  #myModal .modal-dialog .modal-content .modal-footer {
+    border-top: 1px solid transparent; }

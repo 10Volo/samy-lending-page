@@ -1,0 +1,54 @@
+//HEADER
+.navbar-inverse .navbar-brand img {
+  width: 250px;
+}
+
+//MAIN CONTENT
+#analyzing-content1 {
+  padding-top: 0;
+  margin-top: 20px;
+
+  .analyzing-title {
+    padding: 20px 0 10px 0;
+  }
+
+  .video-poster {
+    margin: 30px 0 50px 0;
+  }
+
+  .color-bg-violet {
+    margin-bottom: 40px;
+  }
+}
+
+//VIDEO POPUP
+#myModal {
+  .modal-dialog {
+    .modal-content{
+      background-color: rgba(0, 0, 0, 0);
+      border: 0;
+
+      @media (min-width: 768px) {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+      .modal-header {
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+
+        .close {
+          position: absolute;
+          right: 70px;
+          top: 23px;
+          float: none;
+          color: #ffffff;
+          opacity: .8;
+          z-index: 1;
+        }
+      }
+      .modal-footer {
+        border-top: 1px solid rgba(0, 0, 0, 0);
+      }
+    }
+  }
+}
