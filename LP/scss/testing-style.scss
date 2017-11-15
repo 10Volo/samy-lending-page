@@ -1,11 +1,80 @@
 //HEADER
 .navbar-inverse .navbar-brand img {
   width: 250px;
+
+  @media (max-width: 767px) {
+    width: 200px;
+    margin-left: 15px;
+  }
 }
 
 //MAIN CONTENT
 #abtesting-content1 {
   padding-top: 50px;
+
+  p.abtesting-headline {
+    @media (max-width: 767px) {
+      font-size: 26px !important;
+      line-height: 36px;
+    }
+  }
+
+  .free-space {
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+
+    @media (max-width: 767px) {
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding-top: 0;
+  }
+
+  h3 {
+    @media (max-width: 767px) {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  }
+
+  .video-poster {
+    @media (max-width: 767px) {
+      box-shadow: 3px 0px 8px 4px #666;
+    }
+  }
+
+  .content-btn {
+    @media (max-width: 767px) {
+      margin-top: 10px;
+    }
+  }
+
+  .color-bg-violet {
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .color-bg-violet {
+    h2 {
+      @media (max-width: 767px) {
+        margin: 5px 10px 10px 10px;
+        font-size: 15px !important;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+
+      span {
+        @media (max-width: 767px) {
+          padding-right: 10px;
+        }
+      }
+    }
+  }
 }
 
 //VIDEO POPUP
@@ -37,6 +106,176 @@
         border-top: 1px solid rgba(0, 0, 0, 0);
 
       }
+    }
+  }
+}
+
+//MAIN CONTENT 2
+#abtesting-content2 {
+  @media (max-width: 768px) {
+    padding-top: 20px;
+  }
+
+  p.abtesting-headline {
+    @media (max-width: 768px) {
+      font-size: 26px !important;
+    }
+
+    span {
+      #features-img {
+        @media (max-width: 768px) {
+          width: 40px !important;
+        }
+      }
+    }
+  }
+
+  .testing-property {
+    padding-top: 20px;
+  }
+
+  .free-space {
+    margin-bottom: 40px;
+  }
+}
+
+//MAIN CONTENT 3
+#abtesting-content3 {
+  p.abtesting-headline {
+    @media (max-width: 768px) {
+      font-size: 26px!important;
+    }
+
+    span {
+      img {
+        @media (max-width: 768px) {
+          width: 40px;
+        }
+      }
+    }
+  }
+  ul {
+    li {
+      h3 {
+        @media (max-width: 768px) {
+          font-size: 18px;
+          line-height: 1.1;
+        }
+      }
+    }
+  }
+}
+
+//MAIN CONTENT 7
+#abtesting-content7 {
+  padding-bottom: 30px;
+  @media (max-width: 768px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h1.text-center {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .owl-carousel {
+    .item {
+      p {
+        img.testing-quote {
+          @media (max-width: 768px) {
+            width: 20%;
+          }
+        }
+      }
+      h2.text-center {
+        @media (max-width: 768px) {
+          font-size: 22px;
+          line-height: 1.3;
+        }
+      }
+    }
+  }
+
+  .content-btn {
+    @media (max-width: 768px) {
+      margin-top: 0;
+    }
+    h2 {
+      @media (max-width: 768px) {
+        font-size: 15px;
+      }
+      span {
+        img {
+
+        }
+      }
+    }
+  }
+}
+
+//MAIN CONTENT 5
+#abtesting-content5 {
+  padding-top: 20px;
+  margin-bottom: 30px;
+
+  @media (max-width: 767px) {
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+
+  h1.text-center {
+    @media (max-width: 767px) {
+      font-size: 26px;
+      line-height: 36px;
+    }
+  }
+
+  p.login-headline {
+    @media (max-width: 767px) {
+      font-size: 26px !important;
+      line-height: 36px;
+    }
+  }
+
+  .content-img-holder {
+    padding-top: 40px;
+
+    @media (max-width: 767px) {
+      height: 150px;
+      padding-top: 20px;
+    }
+
+    img {
+      @media (max-width: 767px) {
+        width: auto;
+        height: 60px;
+        margin-bottom: 10px;
+      }
+    }
+
+    p {
+      @media (max-width: 767px) {
+        font-size: 20px !important;
+        line-height: 23px;
+      }
+    }
+  }
+
+  .free-space {
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+
+    @media (max-width: 767px) {
+      margin-top: 10px;
+    }
+  }
+
+  .content-btn {
+
+    @media (max-width: 767px) {
+      font-size: 11px;
     }
   }
 }

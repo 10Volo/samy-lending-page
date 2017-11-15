@@ -1,5 +1,42 @@
 .navbar-inverse .navbar-brand img {
   width: 250px; }
+  @media (max-width: 767px) {
+    .navbar-inverse .navbar-brand img {
+      width: 200px;
+      margin-left: 15px; } }
+
+@media (max-width: 767px) {
+  #loginPage-content p.login-headline {
+    font-size: 26px !important;
+    line-height: 36px; } }
+
+#loginPage-content .content-img-holder {
+  padding-top: 40px; }
+  @media (max-width: 767px) {
+    #loginPage-content .content-img-holder {
+      height: 150px;
+      padding-top: 20px; } }
+  @media (max-width: 767px) {
+    #loginPage-content .content-img-holder img {
+      width: auto;
+      height: 60px;
+      margin-bottom: 10px; } }
+  @media (max-width: 767px) {
+    #loginPage-content .content-img-holder p {
+      font-size: 20px !important;
+      line-height: 23px; } }
+
+#loginPage-content .free-space {
+  width: 100%;
+  height: 1px;
+  margin-top: 30px; }
+  @media (max-width: 767px) {
+    #loginPage-content .free-space {
+      margin-top: 10px; } }
+
+@media (max-width: 767px) {
+  #loginPage-content .content-btn {
+    font-size: 11px; } }
 
 #loginPage-content #myModal .modal-dialog .modal-content {
   background-color: transparent;
@@ -21,3 +58,9 @@
       z-index: 1; }
   #loginPage-content #myModal .modal-dialog .modal-content .modal-footer {
     border-top: 1px solid transparent; }
+
+footer {
+  margin-top: 30px; }
+  @media (max-width: 767px) {
+    footer h4 {
+      font-size: 15px; } }
