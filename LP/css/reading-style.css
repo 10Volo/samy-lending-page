@@ -5,36 +5,46 @@
   margin-bottom: 0; }
 
 #readingdata-content1 {
-  padding-top: 50px; }
+  padding-top: 0;
+  padding-bottom: 0; }
   @media (max-width: 768px) {
     #readingdata-content1 {
       padding-top: 0; } }
   #readingdata-content1 .reading-title {
-    padding: 40px 0 25px 0; }
+    padding: 0; }
     @media (max-width: 768px) {
       #readingdata-content1 .reading-title {
         padding: 10px 0 0 0; } }
     #readingdata-content1 .reading-title p.readingdata-headline {
-      margin-bottom: 20px !important; }
+      margin: 20px 0 30px 0 !important;
+      line-height: 0.7; }
       @media (max-width: 768px) {
         #readingdata-content1 .reading-title p.readingdata-headline {
           font-size: 26px !important;
           line-height: 26px;
           margin-bottom: 10px; } }
   #readingdata-content1 h3 {
-    margin: 40px 0; }
+    margin: 20px 0; }
     @media (max-width: 768px) {
       #readingdata-content1 h3 {
         margin: 0 0 30px 0;
         font-size: 18px;
         line-height: 1.1; } }
   #readingdata-content1 .video-poster {
+    margin-top: 40px;
     margin-bottom: 50px; }
   #readingdata-content1 .content-btn {
     margin-bottom: 50px; }
     @media (max-width: 768px) {
       #readingdata-content1 .content-btn {
-        margin-bottom: 30px; } }
+        margin-bottom: 30px; }
+        #readingdata-content1 .content-btn h2 {
+          margin: 10px;
+          font-size: 15px !important;
+          display: flex;
+          align-items: center; }
+          #readingdata-content1 .content-btn h2 span {
+            padding-right: 0px; } }
 
 #myModal .modal-dialog .modal-content {
   background-color: transparent;
@@ -58,12 +68,18 @@
     border-top: 1px solid transparent; }
 
 .box-content-shadow {
+  padding-top: 0;
   padding-bottom: 40px; }
   @media (max-width: 768px) {
     .box-content-shadow {
       padding-top: 0 !important; } }
+  .box-content-shadow .reading-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 280px; }
   .box-content-shadow .readingdata-headline {
-    margin: 20px 0 40px 0; }
+    margin: 20px 0 20px 0; }
     @media (max-width: 768px) {
       .box-content-shadow .readingdata-headline {
         margin: 20px 0; } }
@@ -82,26 +98,31 @@
         font-size: 18px !important;
         line-height: 1.1; } }
 
-@media (max-width: 768px) {
-  #readingdata-content3 p {
-    font-size: 26px !important;
-    line-height: 36px;
-    margin: 20px 0 10px 0; } }
-
-@media (max-width: 768px) {
-  #readingdata-content3 p span img {
-    width: 15%; } }
-
-#readingdata-content3 ul li h3 {
-  margin: 20px 0; }
-  @media (max-width: 768px) {
-    #readingdata-content3 ul li h3 {
-      font-size: 18px !important;
-      line-height: 1.1;
-      margin: 10px 0 20px 0; } }
+#readingdata-content3 {
+  padding-bottom: 20px; }
+  #readingdata-content3 p.readingdata-headline {
+    margin: 20px 0 10px 0; }
+    #readingdata-content3 p.readingdata-headline span img {
+      padding-top: 20px; }
+    @media (max-width: 768px) {
+      #readingdata-content3 p.readingdata-headline {
+        font-size: 26px !important;
+        line-height: 36px;
+        margin: 20px 0 10px 0; } }
+    @media (max-width: 768px) {
+      #readingdata-content3 p.readingdata-headline span img {
+        width: 15%; } }
+  #readingdata-content3 ul li h3 {
+    margin: 20px 0; }
+    @media (max-width: 768px) {
+      #readingdata-content3 ul li h3 {
+        font-size: 18px !important;
+        line-height: 1.1;
+        margin: 10px 0 20px 0; } }
 
 #readingdata-content7 {
-  padding-bottom: 70px; }
+  padding-top: 30px;
+  padding-bottom: 40px; }
   @media (max-width: 768px) {
     #readingdata-content7 {
       padding-bottom: 30px; } }
@@ -114,7 +135,7 @@
       width: 60px; } }
   @media (max-width: 768px) {
     #readingdata-content7 .owl-carousel .item h2 {
-      font-size: 22px !important;
+      font-size: 19px !important;
       line-height: 1.1; } }
   @media (max-width: 768px) {
     #readingdata-content7 .content-btn h2 {
@@ -123,9 +144,14 @@
   @media (max-width: 768px) {
     #readingdata-content7 .content-btn h2 span {
       padding-right: 0; } }
+  #readingdata-content7 .content-btn h2 span img {
+    padding-top: 0; }
 
 #readingdata-content5 {
+  padding-top: 20px;
   padding-bottom: 40px; }
+  #readingdata-content5 h1 {
+    margin: 20px 0; }
   #readingdata-content5 .content-img-holder img {
     margin: 10px auto; }
     @media (max-width: 768px) {

@@ -1,5 +1,5 @@
 .mar-b-40 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 //header
@@ -14,14 +14,14 @@
 //MAIN CONTENT 1
 #pricing-content1 {
   padding-top: 0;
-  padding-bottom: 25px;
+  padding-bottom: 35px;
 
   @media (max-width: 768px) {
     padding-top: 0;
   }
 
   p.pricing-headline {
-    margin: 40px 0;
+    margin: 10px 0 40px 0;
 
     @media (max-width: 768px) {
       margin: 10px 0;
@@ -69,6 +69,7 @@
   }
 
   .content-btn {
+    margin-top: 20px;
     h2 {
 
       @media (max-width: 768px) {
@@ -86,13 +87,14 @@
 
 //MAIN CONTENT 2
 #pricing-content2 {
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 
   @media (max-width: 768px) {
     padding-top: 0;
   }
   p.pricing-headline {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
     @media (max-width: 768px) {
       margin: 10px 0;
@@ -116,7 +118,7 @@
   }
 
   h1 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
     @media (max-width: 768px) {
       margin: 20px 0 10px 0;
@@ -125,20 +127,41 @@
     }
   }
   h3.pricing-software {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+  }
 
+  .col-sm-2 {
+    margin: 35px auto;
+
+    img {
+      margin: 0 auto;
+    }
   }
 }
 
 //MAIN CONTENT 3
 #pricing-content3 {
+  padding-top: 60px;
+  padding-bottom: 30px;
 
   h1.text-center {
+    margin: 0 0 20px 0;
+
     @media (max-width: 768px) {
       margin: 10px 0;
       font-size: 26px !important;
       line-height: 36px;
     }
+  }
+  .border-bottom {
+    margin-top: 0px;
+  }
+
+  .pricing-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 360px;
   }
   img.img-responsive {
     padding-top: 30px;
@@ -173,6 +196,8 @@
 
 //MAIN CONTENT 4
 #pricing-content4 {
+  padding-top: 30px;
+  padding-bottom: 40px;
   @media (max-width: 768px) {
     padding-top: 0;
   }
@@ -198,10 +223,27 @@
       h2.text-center {
         @media (max-width: 768px) {
           margin: 10px 0;
-          font-size: 22px !important;
+          font-size: 19px !important;
           line-height: 1.1;
         }
       }
     }
   }
+  .content-btn {
+    h2 {
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+      span {
+        padding-right: 0;
+        img {
+
+        }
+      }
+    }
+  }
+}
+
+.pricing-girl {
+  width: 100% !important;
 }

@@ -8,21 +8,23 @@
 }
 //MAIN CONTENT 1
 #readingdata-content1 {
-  padding-top: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
 
   @media (max-width: 768px) {
     padding-top: 0;
   }
 
   .reading-title {
-    padding: 40px 0 25px 0;
+    padding: 0;
 
     @media (max-width: 768px) {
       padding: 10px 0 0 0;
     }
 
     p.readingdata-headline {
-      margin-bottom: 20px !important;
+      margin: 20px 0 30px 0 !important;
+      line-height: 0.7;
 
       @media (max-width: 768px) {
         font-size: 26px !important;
@@ -33,7 +35,7 @@
   }
 
   h3 {
-    margin: 40px 0;
+    margin: 20px 0;
 
     @media (max-width: 768px) {
       margin: 0 0 30px 0;
@@ -43,6 +45,7 @@
   }
 
   .video-poster {
+    margin-top: 40px;
     margin-bottom: 50px;
   }
 
@@ -51,6 +54,17 @@
 
     @media (max-width: 768px) {
       margin-bottom: 30px;
+
+      h2 {
+        margin: 10px;
+        font-size: 15px !important;
+        display: flex;
+        align-items: center;
+
+        span {
+          padding-right: 0px;
+        }
+      }
     }
   }
 }
@@ -89,14 +103,22 @@
 
 //MAIN CONTENT 2
 .box-content-shadow {
+  padding-top: 0;
   padding-bottom: 40px;
 
   @media (max-width: 768px) {
     padding-top: 0 !important;
   }
 
+  .reading-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 280px;
+  }
+
   .readingdata-headline {
-    margin: 20px 0 40px 0;
+    margin: 20px 0 20px 0;
 
     @media (max-width: 768px) {
       margin: 20px 0;
@@ -132,7 +154,14 @@
 
 //MAIN CONTENT 3
 #readingdata-content3 {
-  p {
+  padding-bottom: 20px;
+  p.readingdata-headline {
+    margin: 20px 0 10px 0;
+    span {
+      img {
+        padding-top: 20px;
+      }
+    }
     @media (max-width: 768px) {
       font-size: 26px !important;
       line-height: 36px;
@@ -165,7 +194,8 @@
 
 //MAIN CONTENT 7
 #readingdata-content7 {
-  padding-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 
   @media (max-width: 768px) {
     padding-bottom: 30px;
@@ -182,6 +212,7 @@
   .owl-carousel {
     .item {
       p {
+
         img {
           @media (max-width: 768px) {
             width: 60px;
@@ -191,7 +222,7 @@
 
       h2 {
         @media (max-width: 768px) {
-          font-size: 22px !important;
+          font-size: 19px !important;
           line-height: 1.1;
         }
       }
@@ -208,6 +239,7 @@
           padding-right: 0;
         }
         img {
+          padding-top: 0;
         }
       }
     }
@@ -216,8 +248,12 @@
 
 //MAIN CONTENT 5
 #readingdata-content5 {
+  padding-top: 20px;
   padding-bottom: 40px;
 
+  h1 {
+    margin: 20px 0;
+  }
   .content-img-holder {
 
     img {

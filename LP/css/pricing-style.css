@@ -1,5 +1,5 @@
 .mar-b-40 {
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 .navbar-inverse .navbar-brand img {
   width: 250px; }
@@ -10,12 +10,12 @@
 
 #pricing-content1 {
   padding-top: 0;
-  padding-bottom: 25px; }
+  padding-bottom: 35px; }
   @media (max-width: 768px) {
     #pricing-content1 {
       padding-top: 0; } }
   #pricing-content1 p.pricing-headline {
-    margin: 40px 0; }
+    margin: 10px 0 40px 0; }
     @media (max-width: 768px) {
       #pricing-content1 p.pricing-headline {
         margin: 10px 0;
@@ -45,21 +45,24 @@
         margin: 10px 0;
         font-size: 26px;
         line-height: 36px; } }
-  @media (max-width: 768px) {
-    #pricing-content1 .content-btn h2 {
-      font-size: 15px;
-      line-height: 1px; } }
-  @media (max-width: 768px) {
-    #pricing-content1 .content-btn h2 span {
-      padding-right: 0; } }
+  #pricing-content1 .content-btn {
+    margin-top: 20px; }
+    @media (max-width: 768px) {
+      #pricing-content1 .content-btn h2 {
+        font-size: 15px;
+        line-height: 1px; } }
+    @media (max-width: 768px) {
+      #pricing-content1 .content-btn h2 span {
+        padding-right: 0; } }
 
 #pricing-content2 {
-  padding-bottom: 20px; }
+  padding-top: 50px;
+  padding-bottom: 10px; }
   @media (max-width: 768px) {
     #pricing-content2 {
       padding-top: 0; } }
   #pricing-content2 p.pricing-headline {
-    margin-bottom: 40px; }
+    margin-bottom: 30px; }
     @media (max-width: 768px) {
       #pricing-content2 p.pricing-headline {
         margin: 10px 0;
@@ -75,60 +78,78 @@
   #pricing-content2 .pricing-tools {
     margin-bottom: 50px; }
   #pricing-content2 h1 {
-    margin-bottom: 40px; }
+    margin-bottom: 20px; }
     @media (max-width: 768px) {
       #pricing-content2 h1 {
         margin: 20px 0 10px 0;
         font-size: 26px;
         line-height: 36px; } }
   #pricing-content2 h3.pricing-software {
+    margin-bottom: 20px; }
+  #pricing-content2 .col-sm-2 {
+    margin: 35px auto; }
+    #pricing-content2 .col-sm-2 img {
+      margin: 0 auto; }
+
+#pricing-content3 {
+  padding-top: 60px;
+  padding-bottom: 30px; }
+  #pricing-content3 h1.text-center {
+    margin: 0 0 20px 0; }
+    @media (max-width: 768px) {
+      #pricing-content3 h1.text-center {
+        margin: 10px 0;
+        font-size: 26px !important;
+        line-height: 36px; } }
+  #pricing-content3 .border-bottom {
+    margin-top: 0px; }
+  #pricing-content3 .pricing-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 360px; }
+  #pricing-content3 img.img-responsive {
+    padding-top: 30px; }
+  @media (max-width: 768px) {
+    #pricing-content3 {
+      padding-top: 20px; } }
+  @media (max-width: 768px) {
+    #pricing-content3 p.abtesting-headline {
+      font-size: 26px !important; } }
+  @media (max-width: 768px) {
+    #pricing-content3 p.abtesting-headline span #features-img {
+      width: 40px !important; } }
+  #pricing-content3 .testing-property {
+    padding-top: 20px; }
+  #pricing-content3 .free-space {
     margin-bottom: 40px; }
 
-@media (max-width: 768px) {
-  #pricing-content3 h1.text-center {
-    margin: 10px 0;
-    font-size: 26px !important;
-    line-height: 36px; } }
-
-#pricing-content3 img.img-responsive {
-  padding-top: 30px; }
-
-@media (max-width: 768px) {
-  #pricing-content3 {
-    padding-top: 20px; } }
-
-@media (max-width: 768px) {
-  #pricing-content3 p.abtesting-headline {
-    font-size: 26px !important; } }
-
-@media (max-width: 768px) {
-  #pricing-content3 p.abtesting-headline span #features-img {
-    width: 40px !important; } }
-
-#pricing-content3 .testing-property {
-  padding-top: 20px; }
-
-#pricing-content3 .free-space {
-  margin-bottom: 40px; }
-
-@media (max-width: 768px) {
-  #pricing-content4 {
-    padding-top: 0; } }
-
-#pricing-content4 h1.text-center {
-  margin-bottom: 40px; }
+#pricing-content4 {
+  padding-top: 30px;
+  padding-bottom: 40px; }
   @media (max-width: 768px) {
-    #pricing-content4 h1.text-center {
+    #pricing-content4 {
+      padding-top: 0; } }
+  #pricing-content4 h1.text-center {
+    margin-bottom: 40px; }
+    @media (max-width: 768px) {
+      #pricing-content4 h1.text-center {
+        margin: 10px 0;
+        font-size: 26px !important;
+        line-height: 36px; } }
+  @media (max-width: 768px) {
+    #pricing-content4 .owl-carousel .item p img {
+      width: 20%; } }
+  @media (max-width: 768px) {
+    #pricing-content4 .owl-carousel .item h2.text-center {
       margin: 10px 0;
-      font-size: 26px !important;
-      line-height: 36px; } }
+      font-size: 19px !important;
+      line-height: 1.1; } }
+  @media (max-width: 768px) {
+    #pricing-content4 .content-btn h2 {
+      font-size: 16px; } }
+  #pricing-content4 .content-btn h2 span {
+    padding-right: 0; }
 
-@media (max-width: 768px) {
-  #pricing-content4 .owl-carousel .item p img {
-    width: 20%; } }
-
-@media (max-width: 768px) {
-  #pricing-content4 .owl-carousel .item h2.text-center {
-    margin: 10px 0;
-    font-size: 22px !important;
-    line-height: 1.1; } }
+.pricing-girl {
+  width: 100% !important; }

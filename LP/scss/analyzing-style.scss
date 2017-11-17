@@ -9,15 +9,34 @@
   margin-top: 20px;
 
   .analyzing-title {
-    padding: 20px 0 10px 0;
+    padding: 10px 0 10px 0;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 
   .video-poster {
-    margin: 30px 0 50px 0;
+    margin: 35px 0 50px 0;
   }
 
   .color-bg-violet {
     margin-bottom: 40px;
+
+    h2 {
+
+      @media (max-width: 768px) {
+        font-size: 16px !important;
+        margin: 10px 0;
+      }
+
+      span {
+        @media (max-width: 768px) {
+          padding-right: 0;
+        }
+      }
+    }
   }
 }
 
@@ -55,19 +74,63 @@
 
 //MAIN CONTENT 2
 #analyzing-content2 {
+  padding-top: 50px;
+  padding-bottom: 30px;
   .border-bottom {
     img {
       padding: 30px 0;
     }
   }
+  .border-bottom {
+    .analyzing-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 300px;
+    }
+  }
+
+  .analyzing-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 280px;
+  }
+}
+
+//MAIN CONTENT 3
+#analyzing-content3 {
+  padding-top: 50px;
 }
 
 //MAIN CONTENT 7
 #analyzing-content7 {
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  h1.text-center {
+    margin-bottom: 25px;
+  }
+
+  .owl-carousel {
+    h2.text-center {
+      margin-top: 25px;
+    }
+  }
 }
 
 //MAIN CONTENT 5
 #analyzing-content5 {
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  h1.text-center {
+    margin-bottom: 30px;
+  }
+  .content-img-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+  }
 }

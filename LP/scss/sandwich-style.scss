@@ -10,8 +10,7 @@
 
 //MAIN CONTENT 1
 #sandwich-content1 {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 0;
 
   @media (max-width: 767px) {
     padding-top: 0;
@@ -42,7 +41,7 @@
   }
 
   p.sandwich-headline2 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
     @media (max-width: 767px) {
       font-size: 18px !important;
@@ -54,7 +53,8 @@
 
 //MAIN CONTENT 2
 #sandwich-content2 {
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 
   @media (max-width: 767px) {
     padding-top: 0;
@@ -90,7 +90,7 @@
   }
 
   h3{
-    margin: 40px 0;
+    margin: 20px 0;
 
     @media (max-width: 767px) {
       margin: 10px 0;
@@ -102,7 +102,7 @@
 
 //MAIN CONTENT 3
 #sandwich-content3 {
-  padding-top: 25px;
+  padding-top: 15px;
   padding-bottom: 25px;
 
   .content-btn {
