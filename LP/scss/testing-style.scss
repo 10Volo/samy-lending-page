@@ -170,31 +170,28 @@ nav {
   }
 
   .testing-property {
-    padding-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    height: 260px;
+    padding: 50px 0;
     @media (max-width: 768px) {
       padding-top: 0px;
-      height: 240px;
     }
 
     img {
       width: auto;
       height: 90px;
-      margin: 0 auto 15px auto !important;
+      margin: 0 auto 40px auto !important;
     }
     h4 {
-      font-size: 19px;
+      font-size: 21px;
       margin: 0 0 5px 0;
     }
   }
 
   .border-bottom {
     .testing-property {
-      height: 220px;
-
+      padding: 40px 0 10px;
       @media (max-width: 768px) {
         height: 180px;
       }
@@ -241,7 +238,6 @@ nav {
     }
   }
   ul {
-    list-style-type: none;
     padding: 0;
     li {
       h3 {
@@ -350,6 +346,7 @@ nav {
   padding-top: 50px;
   margin-bottom: 70px;
 
+
   @media (max-width: 767px) {
     padding-top: 0;
     padding-bottom: 30px;
@@ -376,8 +373,8 @@ nav {
       position: relative;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      padding-top: 40px;
+      justify-content: flex-end;
+      padding-bottom: 20px;
       &:active {
         top: 5px;
       }
@@ -402,6 +399,7 @@ nav {
       img {
         width: 180px;
         height: auto;
+        margin-bottom: 20px;
         @media (max-width: 767px) {
           width: auto;
           height: 60px;
@@ -440,6 +438,7 @@ nav {
 
 //FOOTER
 #abtesting-footer {
+  padding: 0;
   .footer-wrapper {
     height: 80px;
     display: flex;
@@ -447,7 +446,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     .footer-menu {
-      width: 60%;
+      width: 53%;
       @media (max-width: 767px) {
         width: 100%;
       }
@@ -481,14 +480,15 @@ nav {
     }
     .footer-social {
       display: flex;
-      width: 30%;
+      width: 25%;
       justify-content: space-between;
       @media (max-width: 767px) {
         width: 100%;
         justify-content: space-around;
       }
       img {
-        //margin-left: 50px;
+        width: 40px;
+        height: 40px;
       }
     }
   }
