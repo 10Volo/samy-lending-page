@@ -17,7 +17,7 @@ nav {
       padding-top: 20px !important;
       padding-bottom: 20px; } }
   #abtesting-content1 .testing-title {
-    margin-bottom: 10px; }
+    margin-bottom: 40px; }
     #abtesting-content1 .testing-title p.abtesting-headline {
       margin: 0;
       line-height: 54px; }
@@ -60,16 +60,19 @@ nav {
   @media (max-width: 767px) {
     #abtesting-content1 .color-bg-violet {
       margin-bottom: 30px; } }
-  @media (max-width: 767px) {
-    #abtesting-content1 .color-bg-violet h2 {
-      margin: 5px 10px 10px 10px;
-      font-size: 15px !important;
-      display: flex;
-      align-items: center;
-      padding: 5px; } }
-  @media (max-width: 767px) {
-    #abtesting-content1 .color-bg-violet h2 span {
-      padding-right: 10px; } }
+  #abtesting-content1 .color-bg-violet h2 {
+    font-size: 35px !important;
+    font-weight: 400; }
+    @media (max-width: 767px) {
+      #abtesting-content1 .color-bg-violet h2 {
+        margin: 5px 10px 10px 10px;
+        font-size: 15px !important;
+        display: flex;
+        align-items: center;
+        padding: 5px; } }
+    @media (max-width: 767px) {
+      #abtesting-content1 .color-bg-violet h2 span {
+        padding-right: 10px; } }
 
 #myModal .modal-dialog .modal-content {
   background-color: transparent;
@@ -100,7 +103,9 @@ nav {
       padding-top: 20px;
       padding-bottom: 30px; } }
   #abtesting-content2 p.abtesting-headline {
-    font-size: 46px !important; }
+    font-size: 46px !important;
+    color: #444a54;
+    font-weight: 500; }
     @media (max-width: 768px) {
       #abtesting-content2 p.abtesting-headline {
         font-size: 26px !important;
@@ -173,15 +178,15 @@ nav {
           line-height: 25px; } }
 
 #abtesting-content7 {
-  padding-top: 70px;
-  padding-bottom: 35px; }
+  padding-top: 85px;
+  padding-bottom: 55px; }
   @media (max-width: 768px) {
     #abtesting-content7 {
       padding-top: 10px;
       padding-bottom: 30px; } }
   #abtesting-content7 h1.text-center {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 46px;
     line-height: 54px; }
     @media (max-width: 768px) {
@@ -192,7 +197,10 @@ nav {
     #abtesting-content7 .owl-carousel .item p img.testing-quote {
       width: 20%; } }
   #abtesting-content7 .owl-carousel .item h2.text-center {
+    color: #444a54;
+    font-family: "Raleway-SemiBold";
     font-size: 40px;
+    font-weight: 400;
     line-height: 50px;
     margin-bottom: 45px; }
     @media (max-width: 768px) {
@@ -229,7 +237,7 @@ nav {
         width: 30px; } }
 
 #abtesting-content5 {
-  padding-top: 70px;
+  padding-top: 50px;
   margin-bottom: 70px; }
   @media (max-width: 767px) {
     #abtesting-content5 {
@@ -248,11 +256,12 @@ nav {
   #abtesting-content5 a:hover {
     text-decoration: none; }
   #abtesting-content5 a .content-img-holder {
-    padding-top: 40px;
+    height: 300px;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    padding-top: 40px; }
     #abtesting-content5 a .content-img-holder:active {
       top: 5px; }
     #abtesting-content5 a .content-img-holder:hover {
@@ -270,11 +279,14 @@ nav {
       #abtesting-content5 a .content-img-holder {
         height: 150px;
         padding-top: 20px; } }
-    @media (max-width: 767px) {
-      #abtesting-content5 a .content-img-holder img {
-        width: auto;
-        height: 60px;
-        margin-bottom: 10px; } }
+    #abtesting-content5 a .content-img-holder img {
+      width: 180px;
+      height: auto; }
+      @media (max-width: 767px) {
+        #abtesting-content5 a .content-img-holder img {
+          width: auto;
+          height: 60px;
+          margin-bottom: 10px; } }
     #abtesting-content5 a .content-img-holder p {
       font-size: 26px;
       line-height: 33px; }
@@ -313,14 +325,16 @@ nav {
         #abtesting-footer .footer-wrapper .footer-menu ul {
           width: 100%;
           justify-content: space-around; } }
-      #abtesting-footer .footer-wrapper .footer-menu ul li a {
-        color: #000000;
-        text-decoration: none;
-        font-size: 22px;
-        line-height: 27px; }
-        @media (max-width: 767px) {
-          #abtesting-footer .footer-wrapper .footer-menu ul li a {
-            font-size: 12px; } }
+      #abtesting-footer .footer-wrapper .footer-menu ul li {
+        margin-top: 20px; }
+        #abtesting-footer .footer-wrapper .footer-menu ul li a {
+          color: #000000;
+          text-decoration: none;
+          font-size: 22px;
+          line-height: 27px; }
+          @media (max-width: 767px) {
+            #abtesting-footer .footer-wrapper .footer-menu ul li a {
+              font-size: 12px; } }
   #abtesting-footer .footer-wrapper .footer-social {
     display: flex;
     width: 30%;

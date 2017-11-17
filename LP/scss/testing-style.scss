@@ -25,7 +25,7 @@ nav {
   }
 
   .testing-title {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     p.abtesting-headline {
       margin: 0;
       line-height: 54px;
@@ -87,6 +87,8 @@ nav {
 
   .color-bg-violet {
     h2 {
+      font-size: 35px !important;
+      font-weight: 400;
       @media (max-width: 767px) {
         margin: 5px 10px 10px 10px;
         font-size: 15px !important;
@@ -148,6 +150,8 @@ nav {
 
   p.abtesting-headline {
     font-size: 46px !important;
+    color: #444a54;
+    font-weight: 500;
     @media (max-width: 768px) {
       font-size: 26px !important;
       line-height: 36px;
@@ -260,8 +264,8 @@ nav {
 
 //MAIN CONTENT 7
 #abtesting-content7 {
-  padding-top: 70px;
-  padding-bottom: 35px;
+  padding-top: 85px;
+  padding-bottom: 55px;
   @media (max-width: 768px) {
     padding-top: 10px;
     padding-bottom: 30px;
@@ -269,7 +273,7 @@ nav {
 
   h1.text-center {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 46px;
     line-height: 54px;
     @media (max-width: 768px) {
@@ -288,7 +292,10 @@ nav {
         }
       }
       h2.text-center {
+        color: #444a54;
+        font-family: "Raleway-SemiBold";
         font-size: 40px;
+        font-weight: 400;
         line-height: 50px;
         margin-bottom: 45px;
         @media (max-width: 768px) {
@@ -340,7 +347,7 @@ nav {
 
 //MAIN CONTENT 5
 #abtesting-content5 {
-  padding-top: 70px;
+  padding-top: 50px;
   margin-bottom: 70px;
 
   @media (max-width: 767px) {
@@ -365,11 +372,12 @@ nav {
       text-decoration: none;
     }
     .content-img-holder {
-      padding-top: 40px;
+      height: 300px;
       position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding-top: 40px;
       &:active {
         top: 5px;
       }
@@ -392,6 +400,8 @@ nav {
       }
 
       img {
+        width: 180px;
+        height: auto;
         @media (max-width: 767px) {
           width: auto;
           height: 60px;
@@ -452,6 +462,7 @@ nav {
 
         }
         li {
+          margin-top: 20px;
           a {
             color: #000000;
             text-decoration: none;
