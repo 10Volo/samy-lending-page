@@ -285,117 +285,226 @@ nav {
 }
 
 //MAIN CONTENT 7
-#abtesting-content7 {
-  padding-top: 85px;
-  padding-bottom: 55px;
-  @media (max-width: 768px) {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
+//#abtesting-content7 {
+//  padding-top: 85px;
+//  padding-bottom: 55px;
+//  @media (max-width: 768px) {
+//    padding-top: 30px;
+//    padding-bottom: 30px;
+//  }
+//
+//  h1.text-center {
+//    margin-top: 0;
+//    margin-bottom: 20px;
+//    font-size: 46px;
+//    line-height: 54px;
+//    @media (max-width: 768px) {
+//      font-size: 26px;
+//      line-height: 36px;
+//    }
+//  }
+//
+//  .owl-carousel {
+//    .item {
+//      p {
+//        img.testing-quote {
+//          @media (max-width: 768px) {
+//            width: 20%;
+//          }
+//        }
+//      }
+//      h2.text-center {
+//        color: #444a54;
+//        font-family: "Raleway-SemiBold";
+//        font-size: 40px;
+//        font-weight: 400;
+//        line-height: 50px;
+//        margin-bottom: 45px;
+//
+//        @media (max-width: 768px) {
+//          font-size: 16px;
+//          line-height: 1.2;
+//          margin-bottom: 10px;
+//          font-weight: 900;
+//        }
+//      }
+//      h4.text-center {
+//        font-size: 24px;
+//        line-height: 28px;
+//        margin-bottom: 0;
+//      }
+//      h5.text-center {
+//        font-size: 20px;
+//        line-height: 17px;
+//        margin-top: 0;
+//      }
+//    }
+//  }
+//
+//  .content-btn {
+//    font-size: 36px;
+//    line-height: 44px;
+//    margin-top: 45px;
+//    padding: 20px;
+//    border-radius: 50px;
+//    @media (max-width: 768px) {
+//      margin-top: 0;
+//      padding: 5px;
+//    }
+//    h2 {
+//      @media (max-width: 768px) {
+//        font-size: 15px;
+//      }
+//      span {
+//        @media (max-width: 768px) {
+//          padding-right: 0;
+//        }
+//        img {
+//          @media (max-width: 768px) {
+//            width: 30px;
+//          }
+//        }
+//      }
+//    }
+//  }
+//}
+//
+//.cecilia {
+//  p {
+//
+//    img {
+//      @media (max-width: 768px) {
+//        width: 50px !important;
+//        margin-top: 20px !important;
+//      }
+//    }
+//  }
+//  h4 {
+//    @media (max-width: 768px) {
+//      font-size: 16px !important;
+//      line-height: 1 !important;
+//      margin-top: 0 !important;
+//    }
+//  }
+//
+//  h5 {
+//    @media (max-width: 768px) {
+//      font-size: 16px !important;
+//      line-height: 16px;
+//      margin-top: 0 !important;
+//      color: red;
+//    }
+//  }
+//}
 
+#abtesting-content7 {
+  padding-top: 60px;
+  padding-bottom: 55px;
+  @media (max-width: 767px) {
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
   h1.text-center {
-    margin-top: 0;
-    margin-bottom: 20px;
     font-size: 46px;
-    line-height: 54px;
-    @media (max-width: 768px) {
-      font-size: 26px;
+    margin-bottom: 30px;
+    @media (max-width: 767px) {
+      font-size: 26px!important;
       line-height: 36px;
+      margin-bottom: 20px;
     }
   }
-
   .owl-carousel {
+    .owl-prev {
+      @media (max-width: 767px) {
+        margin: 5px 5px 5px 0;
+        padding: 4px 7px 4px ;
+      }
+    }
+    .owl-next{
+      @media (max-width: 767px) {
+        margin: 5px 0 5px 5px;
+        padding: 4px 0 4px 7px;
+      }
+    }
     .item {
       p {
-        img.testing-quote {
-          @media (max-width: 768px) {
-            width: 20%;
+        img {
+          @media (max-width: 767px) {
+            width: 60px;
           }
         }
       }
       h2.text-center {
-        color: #444a54;
-        font-family: "Raleway-SemiBold";
+        font-family: 'Gotham-Bold';
         font-size: 40px;
-        font-weight: 400;
         line-height: 50px;
         margin-bottom: 45px;
-
-        @media (max-width: 768px) {
-          font-size: 16px;
-          line-height: 1.2;
-          margin-bottom: 10px;
-          font-weight: 900;
+        @media (max-width: 767px) {
+          font-size: 19px;
+          line-height: 26px;
+          margin-bottom: 20px;
         }
       }
-      h4.text-center {
-        font-size: 24px;
-        line-height: 28px;
-        margin-bottom: 0;
-      }
-      h5.text-center {
-        font-size: 20px;
-        line-height: 17px;
-        margin-top: 0;
-      }
-    }
-  }
-
-  .content-btn {
-    font-size: 36px;
-    line-height: 44px;
-    margin-top: 45px;
-    padding: 20px;
-    border-radius: 50px;
-    @media (max-width: 768px) {
-      margin-top: 0;
-      padding: 5px;
-    }
-    h2 {
-      @media (max-width: 768px) {
-        font-size: 15px;
-      }
-      span {
-        @media (max-width: 768px) {
-          padding-right: 0;
+      .cecilia {
+        p {
+          img {
+            @media (max-width: 767px) {
+              width: 50px;
+            }
+          }
         }
-        img {
-          @media (max-width: 768px) {
-            width: 30px;
+        h4.text-center {
+          font-family: 'Raleway-SemiBold';
+          font-size: 24px;
+          margin-bottom: 5px;
+          @media (max-width: 767px) {
+            font-size: 16px!important;
+          }
+        }
+        h5.text-center {
+          font-size: 20px;
+          margin-top: 0;
+          margin-bottom: 55px;
+          @media (max-width: 767px) {
+            font-size: 14px!important;
+            margin-bottom: 20px;
           }
         }
       }
     }
   }
-}
-
-.cecilia {
-  p {
-
-    img {
-      @media (max-width: 768px) {
-        width: 50px !important;
-        margin-top: 20px !important;
+  .content-btn {
+    padding: 19px 0;
+    @media (max-width: 767px) {
+      padding: 6px 0;
+    }
+    h2 {
+      font-size: 36px;
+      @media (max-width: 767px) {
+        font-size: 15px!important;
+      }
+      span {
+        @media (max-width: 767px) {
+          padding-right: 0;
+        }
+        img {
+          @media (max-width: 767px) {
+            width: 25px;
+          }
+        }
       }
     }
   }
-  h4 {
-    @media (max-width: 768px) {
-      font-size: 16px !important;
-      line-height: 1 !important;
-      margin-top: 0 !important;
-    }
-  }
-
-  h5 {
-    @media (max-width: 768px) {
-      font-size: 16px !important;
-      line-height: 16px;
-      margin-top: 0 !important;
-      color: red;
+  .fa {
+    font-size: 100px;
+    color: #a9a9a9;
+    @media (max-width: 767px) {
+      //width: 60px;
+      font-size: 50px;
     }
   }
 }
+
 
 //MAIN CONTENT 5
 #abtesting-content5 {
