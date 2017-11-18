@@ -152,53 +152,27 @@ nav {
         border: none !important; } }
 
 #abtesting-content3 {
-  padding-bottom: 55px; }
+  padding-bottom: 30px; }
   @media (max-width: 767px) {
     #abtesting-content3 {
-      padding-bottom: 30px; } }
-  #abtesting-content3 .footer-wrapper {
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; }
-    #abtesting-content3 .footer-wrapper .footer-menu {
-      width: 60%; }
-      @media (max-width: 767px) {
-        #abtesting-content3 .footer-wrapper .footer-menu {
-          width: 100%; } }
-      #abtesting-content3 .footer-wrapper .footer-menu ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        padding: 0; }
-        @media (max-width: 767px) {
-          #abtesting-content3 .footer-wrapper .footer-menu ul {
-            width: 100%;
-            justify-content: space-around; } }
-        #abtesting-content3 .footer-wrapper .footer-menu ul li {
-          margin-top: 20px; }
-          @media (max-width: 767px) {
-            #abtesting-content3 .footer-wrapper .footer-menu ul li {
-              margin-top: 0; } }
-          #abtesting-content3 .footer-wrapper .footer-menu ul li a {
-            color: #555555;
-            text-decoration: none;
-            font-size: 22px;
-            line-height: 27px; }
-            @media (max-width: 767px) {
-              #abtesting-content3 .footer-wrapper .footer-menu ul li a {
-                font-size: 12px;
-                margin-top: 0; } }
-    #abtesting-content3 .footer-wrapper .footer-social {
-      display: flex;
-      width: 30%;
-      justify-content: space-between; }
-      @media (max-width: 767px) {
-        #abtesting-content3 .footer-wrapper .footer-social {
-          width: 100%;
-          justify-content: space-around;
-          margin-bottom: 15px; } }
+      padding-bottom: 0; } }
+  #abtesting-content3 p.abtesting-headline {
+    margin-bottom: 20px; }
+    @media (max-width: 767px) {
+      #abtesting-content3 p.abtesting-headline {
+        margin-bottom: 0; } }
+  @media (max-width: 767px) {
+    #abtesting-content3 ul {
+      padding: 20px; } }
+  #abtesting-content3 ul li h3 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 35px; }
+    @media (max-width: 767px) {
+      #abtesting-content3 ul li h3 {
+        font-size: 19px;
+        line-height: 35px;
+        margin-bottom: 20px; } }
 
 #abtesting-content7 {
   padding-top: 60px;
