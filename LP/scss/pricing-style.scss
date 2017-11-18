@@ -459,6 +459,33 @@
   }
 }
 
+.cecilia {
+  p {
+
+    img {
+      @media (max-width: 768px) {
+        width: 50px !important;
+        margin-top: 20px !important;
+      }
+    }
+  }
+  h4 {
+    @media (max-width: 768px) {
+      font-size: 16px !important;
+      line-height: 1 !important;
+      margin-top: 20px;
+    }
+  }
+
+  h5 {
+    @media (max-width: 768px) {
+      font-size: 16px !important;
+      line-height: 16px;
+      margin-top: 20px;
+    }
+  }
+}
+
 .img-face {
   width: 100px;
   margin-top: 10px;
