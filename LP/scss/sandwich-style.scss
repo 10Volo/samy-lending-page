@@ -11,13 +11,14 @@
 //MAIN CONTENT 1
 #sandwich-content1 {
   padding-top: 0;
+  padding-bottom: 25px;
 
   @media (max-width: 767px) {
     padding-top: 0;
   }
 
   p.sandwich-headline {
-    margin: 20px 0 30px 0;
+    margin: 40px 0 40px 0;
 
     @media (max-width: 767px) {
       margin: 10px 0;
@@ -42,25 +43,28 @@
 
   p.sandwich-headline2 {
     margin-bottom: 30px;
+    line-height: 44px;
 
     @media (max-width: 767px) {
       font-size: 18px !important;
-      line-height: 1.1;
+      line-height: 30px;
       margin: 10px 0;
     }
   }
 }
-
+.img-position {
+  margin: 0 40px 0 0 !important;
+}
 //MAIN CONTENT 2
 #sandwich-content2 {
-  padding-top: 50px;
+  padding-top: 55px;
   padding-bottom: 10px;
 
   @media (max-width: 767px) {
     padding-top: 0;
   }
   p.sandwich-headline {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 
     @media (max-width: 767px) {
       font-size: 26px !important;
@@ -80,42 +84,72 @@
   }
 
   h4 {
+    display: flex;
+    @media (max-width: 767px) {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
     span {
       img {
         @media (max-width: 767px) {
-          margin: 10px auto;
+          margin-left: 50px;
         }
       }
+    }
+    .flex-wrp {
+      display: flex;
     }
   }
 
   h3{
-    margin: 20px 0;
+    margin: 0;
+    font-family: 'Gotham-Bold';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-top: -35px;
+    margin-bottom: 40px;
+
 
     @media (max-width: 767px) {
       margin: 10px 0;
       font-size: 18px !important;
-      line-height: 1.1;
+      line-height: 30px;
+      padding: 0;
     }
+  }
+  .girl-comment {
+    padding: 70px 0;
   }
 }
 
 //MAIN CONTENT 3
 #sandwich-content3 {
-  padding-top: 15px;
+  padding-top: 35px;
   padding-bottom: 25px;
 
   .content-btn {
     margin:  20px 0;
+    padding: 15px 0;
+    border-radius: 50px;
 
     @media (max-width: 767px) {
       margin: 20px 10px;
     }
 
     h2 {
+      font-size: 36px;
       @media (max-width: 767px) {
         font-size: 15px;
         margin: 0;
+      }
+      span {
+        img {
+          @media (max-width: 767px) {
+            width: 20px;
+          }
+        }
       }
     }
   }
