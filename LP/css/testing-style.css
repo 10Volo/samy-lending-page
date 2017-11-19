@@ -160,7 +160,12 @@ nav {
     margin-bottom: 20px; }
     @media (max-width: 767px) {
       #abtesting-content3 p.abtesting-headline {
-        margin-bottom: 0; } }
+        margin-bottom: 0;
+        font-size: 26px !important;
+        line-height: 36px; } }
+    @media (max-width: 767px) {
+      #abtesting-content3 p.abtesting-headline span img {
+        width: 50px; } }
   @media (max-width: 767px) {
     #abtesting-content3 ul {
       padding: 20px; } }

@@ -231,10 +231,14 @@ nav {
     margin-bottom: 20px;
     @media (max-width: 767px) {
       margin-bottom: 0;
+      font-size: 26px !important;
+      line-height: 36px;
     }
     span {
       img {
-
+        @media (max-width: 767px) {
+          width: 50px;
+        }
       }
     }
   }

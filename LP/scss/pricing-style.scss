@@ -215,8 +215,12 @@
   a {
     h4 {
       b {
-        font-size: 16px !important;
+        font-size: 20px !important;
         line-height: 26px;
+        @media (max-width: 768px) {
+          font-size: 16px !important;
+          line-height: 26px;
+        }
       }
     }
   }
