@@ -96,6 +96,10 @@
       }
 
       span {
+        img {
+          width: 35px;
+          height: auto;
+        }
         @media (max-width: 1214px) {
           padding-right: 10px;
         }
@@ -147,11 +151,17 @@
     font-size: 46px;
     margin-bottom: 55px;
     @media (max-width: 767px) {
+      font-size: 26px !important;
+      line-height: 36px;
       margin-bottom: 10px;
     }
     span {
       img {
         width: 83px;
+        @media (max-width: 767px) {
+          width: 50px !important;
+          height: auto;
+        }
       }
     }
   }
@@ -190,12 +200,14 @@
   p.analyzing-headline {
     margin-bottom: 20px;
     @media (max-width: 767px) {
+      font-size: 26px !important;
+      line-height: 36px;
       margin-bottom: 0;
     }
     span {
       img {
         @media (max-width: 767px) {
-          width: 50px;
+          width: 50px !important;
         }
       }
     }
