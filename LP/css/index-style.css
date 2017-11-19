@@ -5,50 +5,82 @@
       width: 200px;
       margin-left: 15px; } }
 
-@media (max-width: 767px) {
-  #loginPage-content p.login-headline {
-    font-size: 26px !important;
-    line-height: 36px; } }
-
-#loginPage-content .content-img-holder {
-  padding-top: 40px; }
+#loginPage-content {
+  padding-bottom: 60px; }
   @media (max-width: 767px) {
-    #loginPage-content .content-img-holder {
-      height: 150px;
-      padding-top: 20px; } }
+    #loginPage-content {
+      padding-bottom: 40px; } }
+  #loginPage-content .main-title-wrapper {
+    padding-top: 35px;
+    margin-bottom: 50px; }
+    @media (max-width: 767px) {
+      #loginPage-content .main-title-wrapper {
+        padding-top: 0;
+        margin-bottom: 0px; } }
+    @media (max-width: 767px) {
+      #loginPage-content .main-title-wrapper .login-headline {
+        font-size: 26px !important;
+        line-height: 36px; } }
+  #loginPage-content a:hover {
+    text-decoration: none; }
+  #loginPage-content a .content-img-holder {
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    margin-bottom: 50px; }
+    @media (max-width: 767px) {
+      #loginPage-content a .content-img-holder {
+        margin-bottom: 20px; } }
+    #loginPage-content a .content-img-holder:active {
+      top: 5px; }
+    #loginPage-content a .content-img-holder:hover {
+      box-shadow: 2px 0px 3px #979797;
+      z-index: 2;
+      -webkit-transition: all 200ms ease-in;
+      -webkit-transform: scale(1.05);
+      -ms-transition: all 200ms ease-in;
+      -ms-transform: scale(1.05);
+      -moz-transition: all 200ms ease-in;
+      -moz-transform: scale(1.05);
+      transition: all 200ms ease-in;
+      transform: scale(1.05); }
+    @media (max-width: 767px) {
+      #loginPage-content a .content-img-holder {
+        justify-content: center;
+        height: 150px;
+        padding-top: 20px;
+        padding-bottom: 0; } }
+    #loginPage-content a .content-img-holder img {
+      width: 180px;
+      height: auto;
+      margin-bottom: 20px; }
+      @media (max-width: 767px) {
+        #loginPage-content a .content-img-holder img {
+          width: auto;
+          height: 60px;
+          margin-bottom: 10px; } }
   @media (max-width: 767px) {
-    #loginPage-content .content-img-holder img {
-      width: auto;
-      height: 60px;
-      margin-bottom: 10px; } }
+    #loginPage-content .content-btn {
+      margin-top: 20px;
+      font-size: 14px !important; } }
   @media (max-width: 767px) {
-    #loginPage-content .content-img-holder p {
-      font-size: 20px !important;
-      line-height: 23px; } }
+    #loginPage-content .content-btn span img {
+      width: 25px; } }
 
-#loginPage-content .free-space {
-  width: 100%;
-  height: 1px;
-  margin-top: 30px; }
-  @media (max-width: 767px) {
-    #loginPage-content .free-space {
-      margin-top: 10px; } }
-
-@media (max-width: 767px) {
-  #loginPage-content .content-btn {
-    font-size: 11px; } }
-
-#loginPage-content #myModal .modal-dialog .modal-content {
+#myModal .modal-dialog .modal-content {
   background-color: transparent;
   border: 0; }
   @media (min-width: 768px) {
-    #loginPage-content #myModal .modal-dialog .modal-content {
+    #myModal .modal-dialog .modal-content {
       -webkit-box-shadow: none;
       box-shadow: none; } }
-  #loginPage-content #myModal .modal-dialog .modal-content .modal-header {
+  #myModal .modal-dialog .modal-content .modal-header {
     position: relative;
     border-bottom: 1px solid transparent; }
-    #loginPage-content #myModal .modal-dialog .modal-content .modal-header .close {
+    #myModal .modal-dialog .modal-content .modal-header .close {
       position: absolute;
       right: 70px;
       top: 23px;
@@ -56,11 +88,17 @@
       color: #ffffff;
       opacity: .8;
       z-index: 1; }
-  #loginPage-content #myModal .modal-dialog .modal-content .modal-footer {
+  #myModal .modal-dialog .modal-content .modal-footer {
     border-top: 1px solid transparent; }
 
-footer {
-  margin-top: 40px; }
-  @media (max-width: 767px) {
-    footer h4 {
-      font-size: 15px; } }
+footer #loginPage-footer .main-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  footer #loginPage-footer .main-footer a {
+    text-decoration: none; }
+    footer #loginPage-footer .main-footer a h4 {
+      margin: 15px 35px; }
+      @media (max-width: 767px) {
+        footer #loginPage-footer .main-footer a h4 {
+          margin: 15px; } }
