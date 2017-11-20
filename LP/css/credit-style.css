@@ -21,64 +21,78 @@ body {
   display: flex; }
   .credit-form-wrapper form {
     position: relative;
-    width: 790px;
-    height: 600px;
+    width: 970px;
+    height: 590px;
     margin-left: auto;
     margin-right: auto; }
-    @media (max-width: 805px) {
+    @media (max-width: 1020px) {
       .credit-form-wrapper form {
-        width: 580px; } }
-    @media (max-width: 600px) {
+        width: 700px; } }
+    @media (max-width: 767px) {
       .credit-form-wrapper form {
-        width: 430px; } }
+        width: 320px; } }
     .credit-form-wrapper form .card-back-side {
       position: absolute;
       top: 0;
-      left: 240px;
-      width: 550px;
-      height: 350px;
+      left: 270px;
+      width: 700px;
+      height: 450px;
       background-color: #00b8e1;
-      border: 10px solid #1354a0;
-      border-radius: 20px; }
-      @media (max-width: 805px) {
+      border: 10px solid #1354a1;
+      border-radius: 40px; }
+      @media (max-width: 1020px) {
         .credit-form-wrapper form .card-back-side {
-          width: 550px;
-          height: 320px;
-          top: 145px;
-          left: 30px; } }
-      @media (max-width: 600px) {
+          top: 155px;
+          left: 30px;
+          width: 670px; } }
+      @media (max-width: 767px) {
         .credit-form-wrapper form .card-back-side {
-          width: 400px; } }
+          width: 320px;
+          height: 255px;
+          top: 110px; } }
       .credit-form-wrapper form .card-back-side .card-back-title {
         width: 100%;
-        height: 65px;
+        height: 110px;
         font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: 700; }
+        @media (max-width: 767px) {
+          .credit-form-wrapper form .card-back-side .card-back-title {
+            height: 50px; } }
         .credit-form-wrapper form .card-back-side .card-back-title p {
           color: #ffffff;
           text-align: right;
-          padding: 15px  0;
+          padding: 40px  0;
           margin: 0 40px; }
       .credit-form-wrapper form .card-back-side .card-back-line {
         width: 100%;
-        height: 80px;
+        height: 110px;
         background-color: #5c4f5c; }
+        @media (max-width: 767px) {
+          .credit-form-wrapper form .card-back-side .card-back-line {
+            height: 60px; } }
       .credit-form-wrapper form .card-back-side .card-back-data {
         display: flex;
         flex-direction: column;
         height: 147px;
         align-items: flex-end;
         justify-content: center;
-        margin-top: 20px;
-        padding-right: 60px; }
+        margin-top: 35px;
+        padding-right: 35px; }
+        @media (max-width: 767px) {
+          .credit-form-wrapper form .card-back-side .card-back-data {
+            height: 40px; } }
         .credit-form-wrapper form .card-back-side .card-back-data label {
           color: #A2E5F4;
           font-family: 'Montserrat', sans-serif;
           font-size: 26px;
           font-weight: 700;
-          padding-right: 50px;
+          padding-right: 140px;
           margin: 0; }
+          @media (max-width: 767px) {
+            .credit-form-wrapper form .card-back-side .card-back-data label {
+              padding-right: 40px;
+              font-size: 18px !important; } }
         .credit-form-wrapper form .card-back-side .card-back-data input {
           color: #ffffff;
           background-color: transparent;
@@ -90,32 +104,43 @@ body {
           border-right: none;
           border-top: none;
           outline: none; }
+          @media (max-width: 767px) {
+            .credit-form-wrapper form .card-back-side .card-back-data input {
+              height: 30px; } }
     .credit-form-wrapper form .card-front-side {
       position: absolute;
-      top: 50px;
+      top: 90px;
       left: 0;
-      width: 550px;
-      height: 350px;
+      width: 700px;
+      height: 450px;
       background-color: #00b8e1;
       border: 10px solid #1354a0;
-      border-radius: 20px; }
-      @media (max-width: 805px) {
+      border-radius: 40px; }
+      @media (max-width: 1020px) {
         .credit-form-wrapper form .card-front-side {
-          width: 550px;
-          top: 0; } }
-      @media (max-width: 600px) {
+          top: 0;
+          width: 670px; } }
+      @media (max-width: 767px) {
         .credit-form-wrapper form .card-front-side {
-          width: 400px; } }
+          width: 320px;
+          height: 255px; } }
       .credit-form-wrapper form .card-front-side .card-front-logo {
         height: 70px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-top: 28px;
+        margin-top: 45px;
         margin-right: 30px; }
+        @media (max-width: 767px) {
+          .credit-form-wrapper form .card-front-side .card-front-logo {
+            margin-top: 10px; } }
         .credit-form-wrapper form .card-front-side .card-front-logo img {
           width: auto;
-          height: 80px; }
+          height: 50px;
+          margin: 0 15px 0 10px; }
+          @media (max-width: 767px) {
+            .credit-form-wrapper form .card-front-side .card-front-logo img {
+              height: 25px !important; } }
       .credit-form-wrapper form .card-front-side .card-front-chip {
         display: flex;
         justify-content: flex-end;
@@ -123,13 +148,18 @@ body {
         margin-top: 20px;
         margin-right: 30px;
         height: 80px; }
+        @media (max-width: 767px) {
+          .credit-form-wrapper form .card-front-side .card-front-chip {
+            display: none; } }
         .credit-form-wrapper form .card-front-side .card-front-chip img {
           width: auto;
-          height: 90px; }
+          height: 90px;
+          margin-top: 30px;
+          margin-right: 15px; }
       .credit-form-wrapper form .card-front-side .card-front-number {
         display: flex;
         flex-direction: column;
-        margin-top: -30px;
+        margin-top: 0;
         margin-left: 30px;
         margin-right: 30px;
         margin-bottom: 15px; }
@@ -139,8 +169,12 @@ body {
           font-size: 20px;
           font-weight: 700;
           margin: 0; }
+          @media (max-width: 767px) {
+            .credit-form-wrapper form .card-front-side .card-front-number label {
+              font-size: 18px; } }
         .credit-form-wrapper form .card-front-side .card-front-number input {
           width: 100%;
+          height: 50px;
           background-color: transparent;
           border-left: none;
           border-top: none;
@@ -150,6 +184,9 @@ body {
           font-family: 'Montserrat', sans-serif;
           font-size: 20px;
           font-weight: 700; }
+          @media (max-width: 767px) {
+            .credit-form-wrapper form .card-front-side .card-front-number input {
+              height: 30px; } }
       .credit-form-wrapper form .card-front-side .card-front-info {
         display: flex;
         justify-content: space-between;
@@ -163,8 +200,12 @@ body {
             font-size: 20px;
             font-weight: 700;
             margin: 0; }
+            @media (max-width: 767px) {
+              .credit-form-wrapper form .card-front-side .card-front-info .card-info-name label {
+                font-size: 18px !important; } }
           .credit-form-wrapper form .card-front-side .card-front-info .card-info-name input {
             width: 100%;
+            height: 50px;
             background-color: transparent;
             border-left: none;
             border-top: none;
@@ -174,6 +215,9 @@ body {
             font-family: 'Montserrat', sans-serif;
             font-size: 20px;
             font-weight: 700; }
+            @media (max-width: 767px) {
+              .credit-form-wrapper form .card-front-side .card-front-info .card-info-name input {
+                height: 30px; } }
         .credit-form-wrapper form .card-front-side .card-front-info .card-info-date {
           width: 30%; }
           .credit-form-wrapper form .card-front-side .card-front-info .card-info-date label {
@@ -182,8 +226,12 @@ body {
             font-size: 20px;
             font-weight: 700;
             margin: 0; }
+            @media (max-width: 767px) {
+              .credit-form-wrapper form .card-front-side .card-front-info .card-info-date label {
+                font-size: 18px !important; } }
           .credit-form-wrapper form .card-front-side .card-front-info .card-info-date input {
             width: 100%;
+            height: 50px;
             background-color: transparent;
             border-left: none;
             border-top: none;
@@ -193,3 +241,6 @@ body {
             font-family: 'Montserrat', sans-serif;
             font-size: 20px;
             font-weight: 700; }
+            @media (max-width: 767px) {
+              .credit-form-wrapper form .card-front-side .card-front-info .card-info-date input {
+                height: 30px; } }

@@ -59,6 +59,9 @@
 #sandwich-content2 {
   padding-top: 55px;
   padding-bottom: 10px;
+  @media (max-width: 767px) {
+    padding-bottom: 30px;
+  }
 
   @media (max-width: 767px) {
     padding-top: 0;
@@ -99,6 +102,18 @@
     }
     .flex-wrp {
       display: flex;
+      font-size: 24px !important;
+      @media (max-width: 767px) {
+        font-size: 18px!important;
+      }
+      strong {
+      }
+      i {
+        font-size: 20px !important;
+        @media (max-width: 767px) {
+          font-size: 16px!important;
+        }
+      }
     }
   }
 
@@ -119,8 +134,63 @@
       padding: 0;
     }
   }
+
+  .comment1 {
+    @media (max-width: 767px) {
+      margin-bottom: 40px;
+    }
+  }
   .girl-comment {
-    padding: 70px 0;
+    padding: 70px 0 30px;
+    font-size: 24px !important;
+    @media (max-width: 767px) {
+      padding: 0 0 30px 0;
+    }
+    h4 {
+      span {
+        img {
+        }
+      }
+      strong {
+        font-size: 24px !important;
+        @media (max-width: 767px) {
+          font-size: 18px!important;
+        }
+      }
+      i {
+        font-size: 20px !important;
+        @media (max-width: 767px) {
+          font-size: 16px!important;
+        }
+      }
+    }
+  }
+  .comment3 {
+    margin-top: 50px;
+    @media (max-width: 767px) {
+      margin-top: 20px;
+    }
+    h4 {
+      span {
+        img {
+          @media (max-width: 767px) {
+            margin: 30px auto !important;
+          }
+        }
+      }
+      .flex-wrp {
+        strong {
+          @media (max-width: 767px) {
+            font-size: 18px!important;
+          }
+        }
+        i {
+          @media (max-width: 767px) {
+            font-size: 16px!important;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -128,6 +198,10 @@
 #sandwich-content3 {
   padding-top: 35px;
   padding-bottom: 25px;
+  @media (max-width: 767px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
   .content-btn {
     margin:  20px 0;

@@ -1,5 +1,9 @@
 .navbar-inverse .navbar-brand img {
   width: 250px; }
+  @media (max-width: 767px) {
+    .navbar-inverse .navbar-brand img {
+      width: 200px;
+      margin-left: 10px; } }
 
 .navbar-inverse {
   margin-bottom: 0; }
@@ -113,7 +117,9 @@
     margin-bottom: 75px; }
     @media (max-width: 767px) {
       #readingdata-content2 p.readingdata-headline {
-        margin-bottom: 0; } }
+        margin-bottom: 20px;
+        font-size: 26px !important;
+        line-height: 36px; } }
     #readingdata-content2 p.readingdata-headline span img {
       width: 83px !important; }
       @media (max-width: 767px) {
@@ -124,7 +130,10 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 40px 0; }
+    padding: 40px 0 20px 0; }
+    @media (max-width: 767px) {
+      #readingdata-content2 .reading-wrapper {
+        padding: 20px 0; } }
     #readingdata-content2 .reading-wrapper img {
       width: auto;
       height: 140px;

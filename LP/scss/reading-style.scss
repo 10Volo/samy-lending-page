@@ -1,6 +1,10 @@
 //header
 .navbar-inverse .navbar-brand img {
   width: 250px;
+  @media (max-width: 767px) {
+    width: 200px;
+    margin-left: 10px;
+  }
 }
 
 .navbar-inverse {
@@ -153,7 +157,9 @@
     font-size: 46px;
     margin-bottom: 75px;
     @media (max-width: 767px) {
-      margin-bottom: 0;
+      margin-bottom: 20px;
+      font-size: 26px !important;
+      line-height: 36px;
     }
     span {
       img {
@@ -169,7 +175,10 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 40px 0;
+    padding: 40px 0 20px 0;
+    @media (max-width: 767px) {
+      padding: 20px 0;
+    }
     img {
       width: auto;
       height: 140px;

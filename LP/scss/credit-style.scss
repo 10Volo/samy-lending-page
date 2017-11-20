@@ -39,52 +39,59 @@ body {
   display: flex;
   form {
     position: relative;
-    width: 790px;
-    height: 600px;
+    width: 970px;
+    height: 590px;
     margin-left: auto;
     margin-right: auto;
-    @media (max-width: 805px) {
-      width: 580px;
+    @media (max-width: 1020px) {
+      width: 700px;
     }
-    @media (max-width: 600px) {
-      width: 430px;
+    @media (max-width: 767px) {
+      width: 320px;
     }
     .card-back-side {
       position: absolute;
       top: 0;
-      left: 240px;
-      width: 550px;
-      height: 350px;
+      left: 270px;
+      width: 700px;
+      height: 450px;
       background-color: #00b8e1;
-      border: 10px solid #1354a0;
-      border-radius: 20px;
-      @media (max-width: 805px) {
-        width: 550px;
-        height: 320px;
-        top: 145px;
+      border: 10px solid #1354a1;
+      border-radius: 40px;
+      @media (max-width: 1020px) {
+        top: 155px;
         left: 30px;
+        width: 670px;
       }
-
-      @media (max-width: 600px) {
-        width: 400px;
+      @media (max-width: 767px) {
+        width: 320px;
+        height: 255px;
+        top: 110px;
       }
       .card-back-title {
         width: 100%;
-        height: 65px;
+        height: 110px;
         font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: 700;
+        @media (max-width: 767px) {
+          height: 50px;
+        }
         p {
           color: #ffffff;
           text-align: right;
-          padding: 15px  0;
+          padding: 40px  0;
           margin: 0 40px;
         }
       }
       .card-back-line {
         width: 100%;
-        height: 80px;
+        height: 110px;
         background-color: #5c4f5c;
+        @media (max-width: 767px) {
+          height: 60px;
+        }
+
       }
       .card-back-data {
         display: flex;
@@ -92,15 +99,22 @@ body {
         height: 147px;
         align-items: flex-end;
         justify-content: center;
-        margin-top: 20px;
-        padding-right: 60px;
+        margin-top: 35px;
+        padding-right: 35px;
+        @media (max-width: 767px) {
+          height: 40px;
+        }
         label {
           color: #A2E5F4;
           font-family: 'Montserrat', sans-serif;
           font-size: 26px;
           font-weight: 700;
-          padding-right: 50px;
+          padding-right: 140px;
           margin: 0;
+          @media (max-width: 767px) {
+            padding-right: 40px;
+            font-size: 18px !important;
+          }
         }
         input {
           color: #ffffff;
@@ -113,35 +127,46 @@ body {
           border-right: none;
           border-top: none;
           outline:none;
+          @media (max-width: 767px) {
+            height: 30px;
+          }
         }
       }
     }
     .card-front-side {
       position: absolute;
-      top: 50px;
+      top: 90px;
       left: 0;
-      width: 550px;
-      height: 350px;
+      width: 700px;
+      height: 450px;
       background-color: #00b8e1;
       border: 10px solid #1354a0;
-      border-radius: 20px;
-      @media (max-width: 805px) {
-        width: 550px;
+      border-radius: 40px;
+      @media (max-width: 1020px) {
         top: 0;
+        width: 670px;
       }
-      @media (max-width: 600px) {
-        width: 400px;
+      @media (max-width: 767px) {
+        width: 320px;
+        height: 255px;
       }
       .card-front-logo {
         height: 70px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-top: 28px;
+        margin-top: 45px;
         margin-right: 30px;
+        @media (max-width: 767px) {
+          margin-top: 10px;
+        }
         img {
           width: auto;
-          height: 80px;
+          height: 50px;
+          margin: 0 15px 0 10px;
+          @media (max-width: 767px) {
+            height: 25px!important;
+          }
         }
       }
       .card-front-chip {
@@ -151,15 +176,20 @@ body {
         margin-top: 20px;
         margin-right: 30px;
         height: 80px;
+        @media (max-width: 767px) {
+          display: none;
+        }
         img {
           width: auto;
           height: 90px;
+          margin-top: 30px;
+          margin-right: 15px;
         }
       }
       .card-front-number {
         display: flex;
         flex-direction: column;
-        margin-top: -30px;
+        margin-top: 0;
         margin-left: 30px;
         margin-right: 30px;
         margin-bottom: 15px;
@@ -169,9 +199,13 @@ body {
           font-size: 20px;
           font-weight: 700;
           margin: 0;
+          @media (max-width: 767px) {
+            font-size: 18px;
+          }
         }
         input {
           width: 100%;
+          height: 50px;
           background-color: rgba(0, 0, 0, 0);
           border-left: none;
           border-top: none;
@@ -181,6 +215,9 @@ body {
           font-family: 'Montserrat', sans-serif;
           font-size: 20px;
           font-weight: 700;
+          @media (max-width: 767px) {
+            height: 30px;
+          }
         }
       }
       .card-front-info {
@@ -196,9 +233,13 @@ body {
             font-size: 20px;
             font-weight: 700;
             margin: 0;
+            @media (max-width: 767px) {
+              font-size: 18px !important;
+            }
           }
           input {
             width: 100%;
+            height: 50px;
             background-color: rgba(0, 0, 0, 0);
             border-left: none;
             border-top: none;
@@ -208,6 +249,9 @@ body {
             font-family: 'Montserrat', sans-serif;
             font-size: 20px;
             font-weight: 700;
+            @media (max-width: 767px) {
+              height: 30px;
+            }
           }
         }
         .card-info-date {
@@ -218,9 +262,14 @@ body {
             font-size: 20px;
             font-weight: 700;
             margin: 0;
+            @media (max-width: 767px) {
+              font-size: 18px !important;
+            }
+
           }
           input {
             width: 100%;
+            height: 50px;
             background-color: rgba(0, 0, 0, 0);
             border-left: none;
             border-top: none;
@@ -230,6 +279,9 @@ body {
             font-family: 'Montserrat', sans-serif;
             font-size: 20px;
             font-weight: 700;
+            @media (max-width: 767px) {
+              height: 30px;
+            }
           }
         }
       }
