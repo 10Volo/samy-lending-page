@@ -62,10 +62,13 @@
           width: auto;
           height: 60px;
           margin-bottom: 10px; } }
+    @media (max-width: 767px) {
+      #loginPage-content a .content-img-holder p {
+        font-size: 20px !important; } }
   @media (max-width: 767px) {
     #loginPage-content .content-btn {
       margin-top: 20px;
-      font-size: 14px !important; } }
+      font-size: 13px !important; } }
   @media (max-width: 767px) {
     #loginPage-content .content-btn span img {
       width: 25px; } }
@@ -101,4 +104,5 @@ footer #loginPage-footer .main-footer {
       margin: 15px 35px; }
       @media (max-width: 767px) {
         footer #loginPage-footer .main-footer a h4 {
-          margin: 15px; } }
+          margin: 15px;
+          font-size: 16px !important; } }
