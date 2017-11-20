@@ -33,137 +33,135 @@
             <p class="credit-headline text-center">
                 <span>
                     <img src="img/lightning.png" id="features-img">
-                </span>&ensp;
+                </span>
                 <span id="star">Activate Your Free Trial</span>
             </p>
-
-            <div class="row">
-                <div class="col-md-1 col-sm-1"></div>
-                <div class="col-md-5 col-sm-5 col-xs-12">
-                    <div class="content-img-holder" id="border-blue">
-                        <div class="row">
-                            <div class="col-xs-6"></div>
-                            <div class="col-xs-6">
-                                <img src="img/popular.png" style="margin-right: -5px;" class="img-responsive"/>
-                            </div>
+            <div class="offer-wrapper">
+                <button id="button1" onclick="Text1()" class="content-img-holder btn-active">
+                    <div class="offer-best-deal-wrapper">
+                        <div class="content-holder-popular">
+                            <img src="img/popular.png" class="img-responsive"/>
                         </div>
-                        <div class="row">
-                            <div class="col-xs-2"></div>
-                            <div class="col-xs-4">
-                                <img src="img/abtesting/content8-img2.png" class="width-120 not-center img-responsive"/>
-                            </div>
-                            <div class="col-xs-3 margin-left-15 padding-top-10">
-                                <p class="credit-headline color-blue">Yearly</p>
-                                <h1><span class="color-red"><b>$19</b></span>/month</h1>
-                            </div>
-                            <div class="col-xs-3"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-2"></div>
-                            <div class="col-xs-8">
-                                <p class="text23 text-left">Save an additional 50% by paying yearly..</p>
-                            </div>
-                            <div class="col-xs-2"></div>
-                        </div>
-
                     </div>
-                </div>
-                <div class="col-md-5 col-sm-5 col-xs-12">
-                    <div class="content-img-holder ">
-
-                        <div class="row">
-                            <div class="col-xs-2"></div>
-                            <div class="col-xs-4">
-                                <img src="img/abtesting/content8-img1.png" class="width-120 not-center img-responsive"/>
-                            </div>
-                            <div class="col-xs-3 margin-left-15 padding-top-10">
-                                <p class="credit-headline color-blue">Monthly</p>
-                                <h1><span class="color-red"><b>$39</b></span>/month</h1>
-                            </div>
-                            <div class="col-xs-3"></div>
+                    <div class="offer-title-wrapper">
+                        <div class="offer-info-logo">
+                            <img src="img/abtesting/content8-img2.png" class="img-responsive"/>
                         </div>
-                        <div class="row">
-                            <div class="col-xs-2"></div>
-                            <div class="col-xs-8">
-                                <p class="text23 text-left padding-top-10">Everything included..</p>
-                            </div>
-                            <div class="col-xs-2"></div>
+                        <div class="offer-info-data">
+                            <p class="credit-headline color-blue">Yearly</p>
+                            <h1><span class="color-red"><b>$19</b></span>/month</h1>
                         </div>
-
                     </div>
-                </div>
-                <div class="col-md-1 col-sm-1"></div>
+                    <div class="offer-info-description">
+                        <p class="text23 text-left">Save an additional 50% by paying yearly..</p>
+                    </div>
+                </button>
+                <button id="button2" onclick="Text2()" class="content-img-holder">
+                    <div class="offer-best-deal-wrapper">
+                        <div class="content-holder-popular">
+                            <img src="img/popular.png" class="img-responsive"/>
+                        </div>
+                    </div>
+                    <div class="offer-title-wrapper">
+                        <div class="offer-info-logo">
+                            <img src="img/abtesting/content8-img2.png" class="img-responsive"/>
+                        </div>
+                        <div class="offer-info-data">
+                            <p class="credit-headline color-blue">Monthly</p>
+                            <h1><span class="color-red"><b>$39</b></span>/month</h1>
+                        </div>
+                    </div>
+                    <div class="offer-info-description">
+                        <p class="text23 text-left">Everything included..</p>
+                    </div>
+                </button>
+
             </div>
 
-            <div class="row">
-                <div class="col-xs-12">
+
+            <script>
+                function Text1() {
+                    $('#button2').removeClass('btn-active');
+                    $('#button1').addClass('btn-active');
+
+                    $('#div1').html('<h1 class="text-center">FREE for 3 days then <span class="color-red"><b>$228</b></span>/year</h1>');
+                }
+
+                function Text2() {
+                    $('#button1').removeClass('btn-active');
+                    $('#button2').addClass('btn-active');
+
+                    $('#div1').html('<h1 class="text-center">FREE for 3 days then <span class="color-red"><b>$468</b></span>/year</h1>');
+                }
+            </script>
+
+            <div>
+                <div id="div1">
                     <h1 class="text-center">FREE for 3 days then <span class="color-red"><b>$228</b></span>/year</h1>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-sm-12 col-xs-10">
-                    <!--FORM BEGIN-->
-                    <div class="credit-form-wrapper">
-                        <form action="">
-                            <div class="card-back-side">
-                                <div class="card-back-title">
-                                    <p>CREDIT CARD</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-xs-10">
+                <!--FORM BEGIN-->
+                <div class="credit-form-wrapper">
+                    <form action="">
+                        <div class="card-back-side">
+                            <div class="card-back-title">
+                                <p>CREDIT CARD</p>
+                            </div>
+                            <div class="card-back-line"></div>
+                            <div class="card-back-data">
+                                <label for="">CCV</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="card-front-side">
+                            <div class="card-front-logo">
+                                <img src="img/master.png" alt="">
+                                <img src="img/amex.png" alt="">
+                                <img src="img/visa.png" alt="">
+                            </div>
+                            <div class="card-front-chip">
+                                <img src="img/chip.png" alt="">
+                            </div>
+                            <div class="card-front-number">
+                                <label for="">CARD NUMBER</label>
+                                <input type="text">
+                            </div>
+                            <div class="card-front-info">
+                                <div class="card-info-name">
+                                    <label for="">NAME</label>
+                                    <input type="texttext">
                                 </div>
-                                <div class="card-back-line"></div>
-                                <div class="card-back-data">
-                                    <label for="">CCV</label>
-                                    <input type="text">
+                                <div class="card-info-date">
+                                    <label for="">EXPIRE</label>
+                                    <input type="texttext">
                                 </div>
                             </div>
-                            <div class="card-front-side">
-                                <div class="card-front-logo">
-                                    <img src="img/master.png" alt="">
-                                    <img src="img/amex.png" alt="">
-                                    <img src="img/visa.png" alt="">
-                                </div>
-                                <div class="card-front-chip">
-                                    <img src="img/chip.png" alt="">
-                                </div>
-                                <div class="card-front-number">
-                                    <label for="">CARD NUMBER</label>
-                                    <input type="text">
-                                </div>
-                                <div class="card-front-info">
-                                    <div class="card-info-name">
-                                        <label for="">NAME</label>
-                                        <input type="texttext">
-                                    </div>
-                                    <div class="card-info-date">
-                                        <label for="">EXPIRE</label>
-                                        <input type="texttext">
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!--FORM END-->
+                        </div>
+                    </form>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-3 col-xs-1"></div>
-                <div class="col-sm-5 col-xs-10">
-                    <div class="credit-advantages">
-                        <h2 class="text-left"><span> <img src="img/credit-icon1.png"></span>Unlimited Ad Accounts</h2>
-                        <h2 class="text-left"><span> <img src="img/credit-icon2.png"></span>Unlimited Ad Spend
-                        </h2>
-                        <h2 class="text-left padding-top-10"><span> <img src="img/credit-icon3.png"></span>Access To All
-                            Tools</h2>
-                        <h2 class="text-left padding-top-20"><span> <img src="img/credit-icon4.png"></span>Free 3 Day
-                            Trial</h2>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-1"></div>
+                <!--FORM END-->
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-offset-1 col-sm-10 col-xs-10 col-xs-offset-1">
+                <div class="credit-advantages">
+                    <h2 class="text-left"><span> <img src="img/credit-icon1.png"></span>Unlimited Ad Accounts</h2>
+                    <h2 class="text-left"><span> <img src="img/credit-icon2.png"></span>Unlimited Ad Spend
+                    </h2>
+                    <h2 class="text-left"><span> <img src="img/credit-icon3.png"></span>Access To All
+                        Tools</h2>
+                    <h2 class="text-left"><span> <img src="img/credit-icon4.png"></span>Free 3 Day
+                        Trial</h2>
+                </div>
+            </div>
+        </div>
     </div>
+
+</div>
 </div>
 
 <!--Main Content 3-->
@@ -171,8 +169,22 @@
     <div class="container">
         <div class="row">
             <div class="ccol-xs-12">
-                <h3 class="text-center"><span><img src="img/terms.png"></span>&ensp;&ensp;I agree with <b>Terms of
-                    Use</b></h3>
+                <div class="container1">
+                    <ul>
+                        <li>
+                            <input type="radio" id="f-option" name="selector">
+                            <label for="f-option">
+                                <h3>
+                                    I agree with
+                                    <b>Terms of Use</b>
+                                </h3>
+                            </label>
+                            <div class="check"></div>
+                        </li>
+                    </ul>
+                </div>
+
+
                 <div class="content-btn color-bg-violet">
                     <h2><span><img src="img/lightning.png"></span> START TRIAL</h2>
                 </div>
@@ -188,15 +200,13 @@
     <div id="credit-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-2 col-xs-2"></div>
-                <div class="col-md-2 col-sm-4 col-xs-5">
+                <div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2 col-xs-6">
                     <h4 class="text-center"><a href="javascript:void(0)" class="text-decoration-none">TERMS OF USE</a>
                     </h4>
                 </div>
-                <div class="col-md-2 col-sm-4 col-xs-3">
+                <div class="col-md-3 3 col-sm-4 col-xs-6">
                     <h4 class="text-center"><a href="javascript:void(0)" class="text-decoration-none">POLICY</a></h4>
                 </div>
-                <div class="col-md-4 col-sm-2 col-xs-2"></div>
             </div>
         </div>
     </div>
