@@ -5,11 +5,6 @@
       width: 200px;
       margin-left: 10px; } }
 
-#credit-content1 .credit-advantages h2 span {
-  margin-right: 25px; }
-  #credit-content1 .credit-advantages h2 span img {
-    width: 50px; }
-
 .box-content-shadow {
   padding-top: 30px; }
   .box-content-shadow h3 {
@@ -41,8 +36,8 @@ body {
       font-size: 46px !important; }
       @media (max-width: 767px) {
         #credit-content1 p.credit-headline span#star {
-          font-size: 26px !important;
-          line-height: 36px !important; } }
+          font-size: 23px !important;
+          line-height: 30px !important; } }
   #credit-content1 .offer-wrapper {
     display: flex;
     justify-content: space-between; }
@@ -55,7 +50,7 @@ body {
       height: auto;
       padding: 0;
       box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.37);
-      border: 5px solid transparent; }
+      border: 3px solid transparent; }
       #credit-content1 .offer-wrapper button.content-img-holder.btn-active {
         border-color: #1354a1; }
       #credit-content1 .offer-wrapper button.content-img-holder:last-child .offer-best-deal-wrapper .content-holder-popular {
@@ -146,7 +141,8 @@ body {
             margin-right: 5px;
             margin-bottom: 10px; } }
         #credit-content1 .offer-wrapper button.content-img-holder .offer-info-description p {
-          font-size: 30px !important; }
+          font-size: 30px !important;
+          line-height: 35px; }
           @media (max-width: 993px) {
             #credit-content1 .offer-wrapper button.content-img-holder .offer-info-description p {
               font-size: 25px !important; } }
@@ -176,13 +172,14 @@ body {
         width: 700px;
         height: 450px;
         background-color: #00b8e1;
-        border: 10px solid #1354a1;
+        border: 6px solid #1354a1;
         border-radius: 40px; }
         @media (max-width: 1020px) {
           #credit-content1 .credit-form-wrapper form .card-back-side {
             top: 155px;
             left: 30px;
-            width: 670px; } }
+            width: 670px;
+            margin-bottom: 25px; } }
         @media (max-width: 767px) {
           #credit-content1 .credit-form-wrapper form .card-back-side {
             width: 100%;
@@ -229,8 +226,8 @@ body {
             margin: 0; }
             @media (max-width: 767px) {
               #credit-content1 .credit-form-wrapper form .card-back-side .card-back-data label {
-                padding-right: 40px;
-                font-size: 18px !important; } }
+                padding-right: 20px;
+                font-size: 16px !important; } }
           #credit-content1 .credit-form-wrapper form .card-back-side .card-back-data input {
             color: #ffffff;
             background-color: transparent;
@@ -252,7 +249,7 @@ body {
         width: 700px;
         height: 450px;
         background-color: #00b8e1;
-        border: 10px solid #1354a0;
+        border: 6px solid #1354a0;
         border-radius: 40px; }
         @media (max-width: 1020px) {
           #credit-content1 .credit-form-wrapper form .card-front-side {
@@ -312,7 +309,7 @@ body {
             margin: 0; }
             @media (max-width: 767px) {
               #credit-content1 .credit-form-wrapper form .card-front-side .card-front-number label {
-                font-size: 18px; } }
+                font-size: 16px !important; } }
           #credit-content1 .credit-form-wrapper form .card-front-side .card-front-number input {
             width: 100%;
             height: 50px;
@@ -343,7 +340,7 @@ body {
               margin: 0; }
               @media (max-width: 767px) {
                 #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-name label {
-                  font-size: 18px !important; } }
+                  font-size: 16px !important; } }
             #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-name input {
               width: 100%;
               height: 50px;
@@ -369,7 +366,7 @@ body {
               margin: 0; }
               @media (max-width: 767px) {
                 #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date label {
-                  font-size: 18px !important; } }
+                  font-size: 16px !important; } }
             #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date input {
               width: 100%;
               height: 50px;
@@ -401,16 +398,19 @@ body {
       margin-top: 90px; } }
   #credit-content1 .credit-advantages h2 {
     font-size: 46px !important;
-    letter-spacing: -2px; }
+    letter-spacing: -2px;
+    color: black; }
     @media (max-width: 767px) {
       #credit-content1 .credit-advantages h2 {
-        font-size: 19px !important;
+        font-size: 18px !important;
         line-height: 30px; } }
-    #credit-content1 .credit-advantages h2 span img {
-      width: 60px; }
-      @media (max-width: 767px) {
-        #credit-content1 .credit-advantages h2 span img {
-          width: 30px; } }
+    #credit-content1 .credit-advantages h2 span {
+      margin-right: 25px; }
+      #credit-content1 .credit-advantages h2 span img {
+        width: 60px; }
+        @media (max-width: 767px) {
+          #credit-content1 .credit-advantages h2 span img {
+            width: 30px; } }
 
 #credit-content3 {
   padding-bottom: 65px; }
@@ -452,7 +452,7 @@ body {
         margin: 0; }
         @media (max-width: 767px) {
           #credit-content3 ul li label h3 {
-            font-size: 16px !important; } }
+            font-size: 15px !important; } }
     #credit-content3 ul li .check {
       display: block;
       position: absolute;
@@ -504,4 +504,4 @@ footer #credit-footer h4 {
   font-size: 22px !important; }
   @media (max-width: 767px) {
     footer #credit-footer h4 {
-      font-size: 15px !important; } }
+      font-size: 14px !important; } }

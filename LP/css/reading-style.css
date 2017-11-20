@@ -140,8 +140,8 @@
       margin-bottom: 30px; }
       @media (max-width: 767px) {
         #readingdata-content2 .reading-wrapper img {
-          width: 120px;
-          height: auto;
+          width: auto;
+          height: 120px;
           margin-bottom: 15px; } }
 
 #readingdata-content3 {
