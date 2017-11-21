@@ -127,6 +127,13 @@
     @media (max-width: 767px) {
       #sandwich-content2 .comment3 h4 .flex-wrp i {
         font-size: 16px !important; } }
+  @media (max-width: 767px) {
+    #sandwich-content2 .lane-w {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      align-items: center; } }
 
 #sandwich-content3 {
   padding-top: 35px;

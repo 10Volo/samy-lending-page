@@ -273,9 +273,10 @@ body {
           margin-right: 30px; }
           @media (max-width: 767px) {
             #credit-content1 .credit-form-wrapper form .card-front-side .card-front-logo {
-              margin: 0 5px;
+              height: 60px;
               flex-wrap: wrap;
-              justify-content: center; } }
+              justify-content: center;
+              margin: 0 5px; } }
           #credit-content1 .credit-form-wrapper form .card-front-side .card-front-logo img {
             width: auto;
             height: 50px;
@@ -329,14 +330,20 @@ body {
             font-weight: 700; }
             @media (max-width: 767px) {
               #credit-content1 .credit-form-wrapper form .card-front-side .card-front-number input {
-                height: 30px; } }
+                height: 25px; } }
         #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info {
           display: flex;
           justify-content: space-between;
           margin-left: 30px;
           margin-right: 30px; }
+          @media (max-width: 767px) {
+            #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info {
+              flex-direction: column; } }
           #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-name {
             width: 60%; }
+            @media (max-width: 767px) {
+              #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-name {
+                width: 100%; } }
             #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-name label {
               color: #A2E5F4;
               font-family: 'Montserrat', sans-serif;
@@ -360,33 +367,39 @@ body {
               font-weight: 700; }
               @media (max-width: 767px) {
                 #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-name input {
-                  height: 30px; } }
+                  height: 25px; } }
           #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date {
-            width: 30%; }
-            #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date label {
-              color: #A2E5F4;
-              font-family: 'Montserrat', sans-serif;
-              font-size: 20px;
-              font-weight: 700;
-              margin: 0; }
-              @media (max-width: 767px) {
-                #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date label {
-                  font-size: 16px !important; } }
-            #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date input {
-              width: 100%;
-              height: 50px;
-              background-color: transparent;
+            width: 32%;
+            display: flex;
+            justify-content: space-between; }
+            @media (max-width: 767px) {
+              #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date {
+                width: 100%; } }
+            #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date select {
+              width: 40%;
+              background-color: #00b8e1;
+              height: 70%;
+              outline: none;
               border-left: none;
               border-top: none;
               border-right: none;
-              outline: none;
+              border-bottom-color: #ffffff;
+              border-bottom-width: 3px;
               color: #ffffff;
               font-family: 'Montserrat', sans-serif;
               font-size: 20px;
-              font-weight: 700; }
+              margin-top: 22px; }
               @media (max-width: 767px) {
-                #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date input {
-                  height: 30px; } }
+                #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date select {
+                  font-size: 16px !important;
+                  width: 45%;
+                  border-bottom-width: 2px;
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  text-indent: 1px;
+                  text-overflow: ''; } }
+              #credit-content1 .credit-form-wrapper form .card-front-side .card-front-info .card-info-date select select::-ms-expand {
+                display: none; }
   #credit-content1 h1.text-center {
     margin-top: 80px;
     margin-bottom: 70px;
