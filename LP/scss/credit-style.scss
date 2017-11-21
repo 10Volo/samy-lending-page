@@ -73,7 +73,7 @@ body {
   }
   .offer-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     @media (max-width: 767px) {
       //flex-direction: column;
       justify-content: space-around;
@@ -81,11 +81,17 @@ body {
     }
     button.content-img-holder {
       background-color: #ffffff;
-      width: 47%;
+      width: 400px;
       height: auto;
       padding: 0;
+      margin-left: 30px;
+      margin-right: 30px;
       box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.37);
       border: 3px solid transparent;
+      @media (max-width: 767px) {
+        margin-left: .0;
+        margin-right: 0;
+      }
       &.btn-active {
         border-color: #1354a1;
       }
@@ -103,7 +109,7 @@ body {
         }
       }
       @media (min-width: 1200px) {
-        width: 45%;
+        width: 400px;
       }
       @media (max-width: 767px) {
         width: 45%;
@@ -182,6 +188,7 @@ body {
             }
             @media (max-width: 676px) {
               font-size: 20px !important;
+              margin: 0;
             }
             span {
               b {
@@ -210,6 +217,7 @@ body {
           @media (max-width: 767px) {
             font-size: 16px !important;
             line-height: 20px;
+            margin: 0;
           }
         }
       }
@@ -341,7 +349,7 @@ body {
           margin-top: 45px;
           margin-right: 30px;
           @media (max-width: 767px) {
-            height: 60px;
+            height: 50px;
             flex-wrap: wrap;
             justify-content: center;
             margin: 0 5px;
@@ -381,6 +389,9 @@ body {
           margin-left: 30px;
           margin-right: 30px;
           margin-bottom: 15px;
+          @media (max-width: 767px) {
+            margin-bottom: 10px;
+          }
           label {
             color: #A2E5F4;
             font-family: 'Montserrat', sans-serif;
@@ -404,7 +415,7 @@ body {
             font-size: 20px;
             font-weight: 700;
             @media (max-width: 767px) {
-              height: 25px;
+              height: 20px;
             }
           }
         }
@@ -451,39 +462,57 @@ body {
           .card-info-date {
             width: 32%;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             @media (max-width: 767px) {
               width: 100%;
+              margin-top: 11px;
             }
-            select{
-              width: 40%;
-              background-color: #00b8e1;
-              height: 70%;
-              outline: none;
-              border-left: none;
-              border-top: none;
-              border-right: none;
-              border-bottom-color: #ffffff;
-              border-bottom-width: 3px;
-              color: #ffffff;
+            label {
+              width: 100%;
+              color: #A2E5F4;
               font-family: 'Montserrat', sans-serif;
               font-size: 20px;
-              margin-top: 22px;
+              font-weight: 700;
+              margin: 0;
               @media (max-width: 767px) {
                 font-size: 16px !important;
-                width: 45%;
-                border-bottom-width: 2px;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                text-indent: 1px;
-                text-overflow: ''
-              }
-              select::-ms-expand {
-                display: none;
-              }
-              &:last-child {
               }
             }
+            .select-wrapper {
+              display: flex;
+              justify-content: space-between;
+              select{
+                width: 40%;
+                background-color: #00b8e1;
+                height: 70%;
+                outline: none;
+                border-left: none;
+                border-top: none;
+                border-right: none;
+                border-bottom-color: #ffffff;
+                border-bottom-width: 3px;
+                color: #ffffff;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                margin-top: 22px;
+                @media (max-width: 767px) {
+                  font-size: 16px !important;
+                  width: 45%;
+                  border-bottom-width: 2px;
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  text-indent: 1px;
+                  text-overflow: ''
+                }
+                select::-ms-expand {
+                  display: none;
+                }
+                &:last-child {
+                }
+              }
+            }
+
+
             //label {
             //  color: #A2E5F4;
             //  font-family: 'Montserrat', sans-serif;

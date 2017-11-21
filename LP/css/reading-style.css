@@ -205,6 +205,10 @@ nav .navbar-collapse ul li {
           width: auto;
           height: 120px;
           margin-bottom: 15px; } }
+    #readingdata-content2 .reading-wrapper h3.text-center {
+      font-size: 24px !important;
+      font-weight: 700;
+      margin: 0; }
 
 #readingdata-content3 {
   margin-top: 15px;

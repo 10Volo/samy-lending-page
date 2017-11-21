@@ -198,6 +198,10 @@ nav .navbar-collapse ul li {
       width: auto;
       height: 90px;
       margin: 0 auto 20px auto !important; }
+    #abtesting-content2 .testing-property h3.text-center {
+      font-size: 24px !important;
+      font-weight: 700;
+      margin: 0 0 10px 0; }
     #abtesting-content2 .testing-property h4 {
       font-size: 21px;
       margin: 0 0 5px 0; }
