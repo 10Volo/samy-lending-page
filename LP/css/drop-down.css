@@ -1,0 +1,63 @@
+nav .navbar-header a img {
+  width: 250px; }
+  @media (max-width: 767px) {
+    nav .navbar-header a img {
+      width: 200px;
+      margin-left: 10px; } }
+
+nav .navbar-collapse ul li a {
+  display: flex; }
+  nav .navbar-collapse ul li a i {
+    margin: auto 5px;
+    font-size: 16px; }
+
+.sub-menu-parent {
+  position: relative; }
+
+.sub-menu {
+  visibility: hidden;
+  /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; }
+
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible;
+  /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+  /* this removes the transition delay so the menu will be visible while the other styles transition */ }
+
+/* presentational */
+nav a {
+  color: blue;
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none; }
+
+nav a:hover {
+  color: #555555; }
+
+nav ul,
+nav ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+nav > ul {
+  background: #EEE;
+  text-align: center; }
+
+nav > ul > li {
+  display: inline-block;
+  border-left: solid 1px #aaa; }
+
+nav > ul > li:first-child {
+  border-left: none; }

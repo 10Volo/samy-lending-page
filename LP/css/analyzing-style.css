@@ -1,7 +1,7 @@
-.navbar-inverse .navbar-brand img {
+.navbar-inverse .navbar-header a img {
   width: 250px; }
   @media (max-width: 767px) {
-    .navbar-inverse .navbar-brand img {
+    .navbar-inverse .navbar-header a img {
       width: 200px;
       margin-left: 10px; } }
 
